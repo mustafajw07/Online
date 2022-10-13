@@ -5,8 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 // Modules
-import { HomeModule } from './shared/home.module';
-import { ProductModule } from './shared/product.module';
 import { MaterialModule } from './shared/material.module';
 
 // Components
@@ -30,8 +28,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ErrorPageComponent,
   ],
   imports: [
-    HomeModule,
-    ProductModule,
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
