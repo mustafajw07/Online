@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Modules
 import { MaterialModule } from './shared/material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Components
 import { AppComponent } from './app.component';
@@ -15,7 +16,6 @@ import { OurProductsComponent } from './pages/our-products/our-products.componen
 import { ContactUsPageComponent } from './pages/contact-us-page/contact-us-page.component';
 import { FooterComponent } from './Partials/footer/footer.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
