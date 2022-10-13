@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Product } from '../models/product';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,7 @@ export class ApiService {
   }
   // Apple Products Get
   getAllAppleProducts(){
-    return this.http.get('../../assets/json/apple.json');
+    return this.http.get<Product>('../../assets/json/apple.json');
   }
 
   getProductAppleById(pid: number){
@@ -35,7 +36,7 @@ export class ApiService {
 
   // Satechi Products Get
   getAllSatechiProducts(){
-    return this.http.get('../../assets/json/satechi.json');
+    return this.http.get<Product>('../../assets/json/satechi.json');
   }
 
   getProductSatechiById(pid: number){
@@ -50,7 +51,7 @@ export class ApiService {
 
   // DrDre Products Get
   getAllDrDreProducts(){
-    return this.http.get('../../assets/json/drdre.json');
+    return this.http.get<Product>('../../assets/json/drdre.json');
   }
 
   getProductDrDreById(pid: number){
@@ -65,7 +66,7 @@ export class ApiService {
 
   // Rolling Square Products Get
   getAllRollingSquareProducts(){
-    return this.http.get('../../assets/json/rollingSquare.json');
+    return this.http.get<Product>('../../assets/json/rollingSquare.json');
   }
   
   getProductRollingSquareById(pid: number){
