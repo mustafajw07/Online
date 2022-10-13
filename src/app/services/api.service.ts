@@ -14,6 +14,10 @@ export class ApiService {
     return this.http.get('../../assets/json/homePageCardProducts.json');
   }
 
+  // Get Home Page Products
+  getAllSliderProducts(){
+    return this.http.get('../../assets/json/homePageSliderProduct.json')
+  }
   // Apple Products Get
   getAllAppleProducts(){
     return this.http.get('../../assets/json/apple.json');
