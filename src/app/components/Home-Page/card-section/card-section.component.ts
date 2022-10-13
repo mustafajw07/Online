@@ -8,10 +8,12 @@ import { ApiService } from 'src/app/services/api.service';
 })
 export class CardSectionComponent implements OnInit {
 
+  cardList:any = [];
+
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {
-    this.api.getAllHomePageProducts().subscribe(res => console.log(res));
+    this.api.getAllHomePageProducts().subscribe(res => this.cardList = res);
   }
 
 }
