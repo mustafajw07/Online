@@ -17,6 +17,7 @@ import { OurProductsComponent } from './pages/our-products/our-products.componen
 import { ContactUsPageComponent } from './pages/contact-us-page/contact-us-page.component';
 import { FooterComponent } from './Partials/footer/footer.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
     HomeModule,
     HttpClientModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
