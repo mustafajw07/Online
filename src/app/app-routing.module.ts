@@ -11,6 +11,7 @@ const routes: Routes = [
   {path : '' , component : HomePageComponent},
   {path : 'products' , component : OurProductsComponent},
   {path : 'contact' , component : ContactUsPageComponent},
+  // {path : 'products/:pid' , component : ContactUsPageComponent},
   {path : '**' , component : ErrorPageComponent},
 ];
 
