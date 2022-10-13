@@ -30,11 +30,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ErrorPageComponent,
   ],
   imports: [
+    HomeModule,
+    ProductModule,
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    ProductModule,
-    HomeModule,
     HttpClientModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
