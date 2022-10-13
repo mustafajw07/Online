@@ -9,10 +9,16 @@ export class ApiService {
   product:any = [];
   constructor(private http: HttpClient) { }
 
+  // Get Home Page Products
+  getAllHomePageProducts(){
+    return this.http.get('../../assets/json/homePageCardProducts.json');
+  }
+
   // Apple Products Get
   getAllAppleProducts(){
     return this.http.get('../../assets/json/apple.json');
   }
+
   getProductAppleById(pid: number){
     this.getAllAppleProducts().subscribe((data : any) => {
       data.forEach((product: any) => {
@@ -27,6 +33,7 @@ export class ApiService {
   getAllSatechiProducts(){
     return this.http.get('../../assets/json/satechi.json');
   }
+
   getProductSatechiById(pid: number){
     this.getAllSatechiProducts().subscribe((data : any) => {
       data.forEach((product: any) => {
@@ -41,6 +48,7 @@ export class ApiService {
   getAllDrDreProducts(){
     return this.http.get('../../assets/json/drdre.json');
   }
+
   getProductDrDreById(pid: number){
     this.getAllDrDreProducts().subscribe((data : any) => {
       data.forEach((product: any) => {
@@ -53,8 +61,9 @@ export class ApiService {
 
   // Rolling Square Products Get
   getAllRollingSquareProducts(){
-    return this.http.get('../../assets/json/rollingsquare.json');
+    return this.http.get('../../assets/json/rollingSquare.json');
   }
+  
   getProductRollingSquareById(pid: number){
     this.getAllRollingSquareProducts().subscribe((data : any) => {
       data.forEach((product: any) => {

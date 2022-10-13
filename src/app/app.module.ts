@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from './shared/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// Components
+//Main Components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Partials/header/header.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
@@ -16,6 +16,11 @@ import { OurProductsComponent } from './pages/our-products/our-products.componen
 import { ContactUsPageComponent } from './pages/contact-us-page/contact-us-page.component';
 import { FooterComponent } from './Partials/footer/footer.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
+
+// Home Section Components
+import { BannerComponent } from './components/Home-Page/banner/banner.component';
+import { BrandComponent } from './components/Home-Page/brand/brand.component';
+import { CardSectionComponent } from './components/Home-Page/card-section/card-section.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +31,9 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
     OurProductsComponent,
     FooterComponent,
     ErrorPageComponent,
+    BannerComponent,
+    BrandComponent,
+    CardSectionComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +41,6 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
     MaterialModule,
     HttpClientModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
