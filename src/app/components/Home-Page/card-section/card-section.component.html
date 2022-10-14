@@ -1,33 +1,59 @@
 <section>
-    <h2 class="text-center">Apple</h2>
-    <div class="cardSection">
-        <div *ngFor="let apple of apple">
-            <div class="mycard">
-                <div class="btn">
-                  <button>View Product</button>
-                </div>
-            </div>
-            <h5><a href="/">{{apple.title}}</a></h5>
+  <h2 class="text-center">Apple</h2>
+  <div class="cardSection">
+    <div *ngFor="let apple of apple">
+      <div class="mycard">
+        <div class="btn">
+          <button>View Product</button>
         </div>
+      </div>
+      <h5>
+        <a href="/">{{ apple.title }}</a>
+      </h5>
     </div>
-    <h2 class="text-center">satechi</h2>
-    <div class="cardSection">
-        <div *ngFor="let satechi of satechi">
-            <div class="mycard">
-                <div class="btn">
-                  <button>View Product</button>
-                </div>
-            </div>
-            <h5><a href="/">{{satechi.title}}</a></h5>
+  </div>
+  <h2 class="text-center">satechi</h2>
+  <div class="cardSection">
+    <div *ngFor="let satechi of satechi">
+      <div class="mycard">
+        <div class="btn">
+          <button>View Product</button>
         </div>
+      </div>
+      <h5>
+        <a href="/">{{ satechi.title }}</a>
+      </h5>
     </div>
-    <div class="container">
-        <button class="mycardbtn my-4">
-            <p class="para">View our products</p>
-            <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M14 5l7 7m0 0l-7 7m7-7H3" strokeLinejoin="round" strokeLinecap="round"></path>
-            </svg>
-        </button>
+  </div>
+  <h2 class="text-center">Rolling Square</h2>
+  <div class="cardSection">
+    <div *ngFor="let rollingSquare of rollingSquare">
+      <div class="mycard">
+        <div class="btn">
+          <button>View Product</button>
+        </div>
+      </div>
+      <h5>
+        <a href="/">{{ rollingSquare.title }}</a>
+      </h5>
     </div>
+  </div>
+  <div class="container">
+    <button class="mycardbtn my-4">
+      <p class="para">View our products</p>
+      <svg
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 5l7 7m0 0l-7 7m7-7H3"
+          strokeLinejoin="round"
+          strokeLinecap="round"
+        ></path>
+      </svg>
+    </button>
+  </div>
 </section>
