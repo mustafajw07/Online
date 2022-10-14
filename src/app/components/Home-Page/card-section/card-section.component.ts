@@ -6,14 +6,27 @@ import { ApiService } from 'src/app/services/api.service';
   templateUrl: './card-section.component.html',
   styleUrls: ['./card-section.component.css']
 })
+
 export class CardSectionComponent implements OnInit {
 
   cardList:any = [];
+  apple:any = [];
+  satechi:any = [];
 
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {
-    this.api.getAllHomePageProducts().subscribe(res => this.cardList = res);
+    this.api.getAllHomePageProducts().subscribe((res :any) =>{
+      this.cardList = res
+      res.forEach((e :any) => {
+        if(e.brand == 'Apple'){
+          this.apple.push(e);
+        }
+        if(e.brand == 'satechi'){
+          this.satechi.push(e);
+        }
+      });
+    });
   }
-
+  
 }

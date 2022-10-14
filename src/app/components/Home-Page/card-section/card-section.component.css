@@ -76,9 +76,10 @@
   -ms-transform: translate(-50%, -50%);
   background-color: black;
   font-size: 16px;
-  padding: 12px 30px;
+  padding: 25px 37px;
   cursor: pointer;
   text-align: center;
+  width: 260px;
 }
 
 .mycardbtn p {
