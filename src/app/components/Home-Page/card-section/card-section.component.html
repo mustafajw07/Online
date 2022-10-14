@@ -1,12 +1,24 @@
 <section>
+    <h2 class="text-center">Apple</h2>
     <div class="cardSection">
-        <div *ngFor="let card of cardList">
+        <div *ngFor="let apple of apple">
             <div class="mycard">
                 <div class="btn">
                   <button>View Product</button>
                 </div>
             </div>
-            <h5><a href="/">{{card.title}}</a></h5>
+            <h5><a href="/">{{apple.title}}</a></h5>
+        </div>
+    </div>
+    <h2 class="text-center">satechi</h2>
+    <div class="cardSection">
+        <div *ngFor="let satechi of satechi">
+            <div class="mycard">
+                <div class="btn">
+                  <button>View Product</button>
+                </div>
+            </div>
+            <h5><a href="/">{{satechi.title}}</a></h5>
         </div>
     </div>
     <div class="container">
