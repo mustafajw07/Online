@@ -11,6 +11,7 @@ export class CardSectionComponent implements OnInit {
   apple: any = [];
   satechi: any = [];
   rollingSquare: any = [];
+  drDre: any = [];
 
   constructor(private api: ApiService) {}
 
@@ -24,8 +25,11 @@ export class CardSectionComponent implements OnInit {
         if (e.brand == 'satechi') {
           this.satechi.push(e);
         }
-        if (e.brand == 'rolling square') {
+        if (e.brand == 'Rolling Square') {
           this.rollingSquare.push(e);
+        }
+        if (e.brand == 'Dr Dre') {
+          this.drDre.push(e);
         }
       });
     });

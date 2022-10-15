@@ -1,42 +1,58 @@
 [
-    {
-        "id" : 1,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 2,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 3,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 4,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 5,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 6,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 7,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 8,
-        "title": "Apple",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    }
+  {
+    "id": 1,
+    "title": "Iphone 14",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 2,
+    "title": "165W USB-C 4-PORT CHARGER",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 3,
+    "title": "Wireless Charger 15W",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 4,
+    "title": "BackCover",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 5,
+    "title": "Iphone 14 Pro",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 6,
+    "title": "USB-C 100W CHARGING CABLE",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 7,
+    "title": "inCharge® X",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 8,
+    "title": "GaN Charger 65W",
+    "image": "",
+    "price": "",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }
 ]
