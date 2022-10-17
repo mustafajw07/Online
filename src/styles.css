@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+/* 
+#F8F9FA
+#DEE2E6
+#ADB5BD
+#495057
+#212529
+*/
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @font-face {
     font-family: 'Montserrat-Variable';
@@ -20,4 +27,3 @@
     -moz-osx-font-smoothing: grayscale;
     background-color: #F8F9FA;
   }
-

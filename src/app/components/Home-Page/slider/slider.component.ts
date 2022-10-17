@@ -8,10 +8,22 @@ import { ApiService } from 'src/app/services/api.service';
 })
 export class SliderComponent implements OnInit {
 
+  productListActive: any = [];
+  productListInActive: any = [];
+
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {
-    this.api.getAllSliderProducts().subscribe((res) => console.log(res))
+    this.api.getAllSliderProducts().subscribe((res:any) => {
+      this.productListActive.push(res[0]);
+      this.productListActive.push(res[1]);
+      this.productListActive.push(res[2]);
+      this.productListActive.push(res[3]);
+      this.productListInActive.push(res[4]);
+      this.productListInActive.push(res[5]);
+      this.productListInActive.push(res[6]);
+      this.productListInActive.push(res[7]);
+    })
   }
 
 }

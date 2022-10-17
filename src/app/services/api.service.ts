@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Product } from '../models/product';
 
 @Injectable({
@@ -17,7 +16,12 @@ export class ApiService {
 
   // Get Home Page Products
   getAllSliderProducts(){
-    return this.http.get('../../assets/json/homePageSliderProduct.json')
+    return this.http.get('../../assets/json/homePageSliderProduct.json');
+  }
+
+  // Get All new arrivals
+  getAllNewArrivals(){
+    return this.http.get('../../assets/json/newArrivals.json');
   }
   // Apple Products Get
   getAllAppleProducts(){

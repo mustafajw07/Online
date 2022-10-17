@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 // Modules
-import { MaterialModule } from './shared/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Main Components
@@ -22,6 +21,7 @@ import { BannerComponent } from './components/Home-Page/banner/banner.component'
 import { BrandComponent } from './components/Home-Page/brand/brand.component';
 import { CardSectionComponent } from './components/Home-Page/card-section/card-section.component';
 import { SliderComponent } from './components/Home-Page/slider/slider.component';
+import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/new-arrivals.component';
 
 @NgModule({
   declarations: [
@@ -35,14 +35,16 @@ import { SliderComponent } from './components/Home-Page/slider/slider.component'
     BannerComponent,
     BrandComponent,
     CardSectionComponent,
-    SliderComponent
+    SliderComponent,
+    NewArrivalsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
