@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 // Modules
-import { MaterialModule } from './shared/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Main Components
@@ -37,14 +36,14 @@ import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/ne
     BrandComponent,
     CardSectionComponent,
     SliderComponent,
-    NewArrivalsComponent
+    NewArrivalsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
     BrowserAnimationsModule,
   ],
   providers: [],
