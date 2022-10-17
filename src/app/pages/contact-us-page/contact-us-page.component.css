@@ -1,24 +1,27 @@
 #container {
-    max-width: 1140px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
-h1{
+
+h1 {
   display: block;
-    font-weight: 700;
-    font-size: 24px;
-    color: #212529;
-    line-height: 1;
-    padding: 20px 0 10px 5px;
-    position: relative;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #212529;
+  line-height: 1;
+  padding: 20px 0 10px 5px;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
-#row{
+
+#row {
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -26,8 +29,9 @@ h1{
   margin-right: -15px;
   margin-left: -15px;
 }
+
 /* Form */
-#form{
+#form {
   margin-right: 10px;
   width: 93%;
 }
@@ -36,85 +40,98 @@ h1{
   padding: 10px;
   display: flex;
 }
-.name{
+
+.name {
   border: none;
   border-radius: 4px;
   box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
   outline: none;
   color: dimgray;
   line-height: 28px;
-  width: 70% ;
+  width: 70%;
   padding: 12px;
   margin: 8px 0 8px 0;
 }
-.email{
-border: none;
+
+.email {
+  border: none;
   border-radius: 4px;
   box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
   outline: none;
   color: dimgray;
   line-height: 28px;
-  width: 70% ;
+  width: 70%;
   padding: 12px;
   margin: 8px;
 }
-.subject{
-    border: none;
+
+.subject {
+  border: none;
   border-radius: 4px;
   box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
   outline: none;
   color: dimgray;
   line-height: 28px;
-  width: 96% ;
+  width: 96%;
   padding: 12px;
   margin: 0 8px 8px 8px;
 }
-.text-area{
-    border: none;
+
+.text-area {
+  border: none;
   border-radius: 4px;
   box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
   outline: none;
   color: dimgray;
   line-height: 28px;
-  width: 96% ;
+  width: 96%;
   height: 190px;
   padding: 12px;
   margin: 0 8px 8px 8px;
 }
+
 input:not(:focus) {
-font-style:italic;
+  font-style: italic;
 }
-textarea{
-  font-style:italic;
-} 
-.info{
+
+textarea {
+  font-style: italic;
+}
+
+.info {
   padding: 10px;
   margin: 8px;
 }
-h4{
+
+h4 {
   font-weight: 700;
   letter-spacing: 1px;
   color: #212529;
 }
-p{
+
+p {
   padding: 2px 0;
   line-height: 1.6666667;
   font-size: 15px;
   color: #495057;
   opacity: 0.9;
 }
-hr{
+
+hr {
   height: 1px;
   background-color: #212529;
   border: none;
   opacity: 0.8;
 }
-.address{
-margin-bottom: 15px;
+
+.address {
+  margin-bottom: 15px;
 }
-.contact{
-margin-top: 15px;
+
+.contact {
+  margin-top: 15px;
 }
+
 /* From uiverse.io */
 button {
   padding: 1em 1.1em;
@@ -134,44 +151,55 @@ button:hover {
   background-color: #212529;
   color: #F8F9FA;
 }
+
 /* information */
-.info{
+.info {
   width: 50%;
   margin-left: 10px;
   line-height: 1.5;
 }
 
-@media (max-width: 768px){
-  #row{
+@media (max-width: 768px) {
+  #row {
     flex-direction: column;
   }
-  #form{
+
+  #form {
     width: 100%;
     margin-right: 0;
   }
-  .input{
+
+  .input {
     flex-direction: column;
   }
-  .email{
+
+  .email {
     margin: 8px 0 8px 0;
   }
-  .email , .name{
+
+  .email,
+  .name {
     width: 100%;
   }
-  .subject .text-area{
-    margin : 0 8px 10px 8px;
+
+  .subject .text-area {
+    margin: 0 8px 10px 8px;
   }
-  .info{
+
+  .info {
     width: 100%;
     margin-left: 0;
   }
-  h1{
+
+  h1 {
     font-size: 18px;
   }
-  h4{
+
+  h4 {
     font-size: 20px;
   }
-  p{
+
+  p {
     font-size: 17px;
   }
 
