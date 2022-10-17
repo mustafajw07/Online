@@ -1,66 +1,86 @@
-.mycard{
-    width: 300px;
-    height: 400px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-image: url("https://ionicframework.com/blog/wp-content/uploads/2016/08/paolo-giubilato-ThK29bv1h24-unsplash-scaled.jpg");
-    background-size: 300px 400px; 
-    background-repeat: no-repeat;
-    margin-bottom: 25px;
-  }
-  .btn{
-    visibility: hidden;
-    width: 270px;
-    transition: transform 280ms;
-  }
-  .mycard:hover > .btn {
-    visibility: visible;
-    transform: translateY(-10px);
-  }
-  button{
-    width: 240px;
-    text-transform: uppercase;
-    height: 56px;
-    background-color: #F8F9FA;
-    border: 0;
-    color: #212529;
-    font-weight: 540;
-    font-size: 14px;
-    cursor: pointer;
-  }
-  h5 a {
-    color: #000;
-    text-decoration: none;
-    margin: 0 2px;
-    font-size: 17px;
-  }
-  a:hover{
-    opacity: 0.7;
-    transition: 0.5ms;
-  }
-  
-  @media (max-width:768px){
-    button{
-      width:200px;
-      height:40px;
-    }
-  }
-  @media (max-width:1200px){
-    .mycard{
-      width: 300px;
-      height: 400px;
+.h-divider {
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
+
+.h-divider .shadow {
+  overflow: hidden;
+  height: 20px;
+}
+
+.h-divider .shadow:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px black;
+}
+.mycard {
+  width: 273px;
+  height: 360px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url("https://ionicframework.com/blog/wp-content/uploads/2016/08/paolo-giubilato-ThK29bv1h24-unsplash-scaled.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+}
+.btn {
+  visibility: hidden;
+  width: 270px;
+  transition: transform 280ms;
+}
+.mycard:hover > .btn {
+  visibility: visible;
+  transform: translateY(-10px);
+}
+button {
+  width: 240px;
+  text-transform: uppercase;
+  height: 56px;
+  background-color: #f8f9fa;
+  border: 0;
+  color: #212529;
+  font-weight: 540;
+  font-size: 14px;
+  cursor: pointer;
+}
+h5 a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 2px;
+  font-size: 17px;
+}
+a:hover {
+  opacity: 0.7;
+  transition: 0.5ms;
+}
+
+@media (max-width: 768px) {
+  button {
+    width: 200px;
+    height: 40px;
   }
 }
-.cardSection{
-    max-width: 1310px;
-    margin-left:auto;
-    margin-right:auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+@media (max-width: 1200px) {
+  .mycard {
+    width: 273px;
+    height: 360px;
+  }
 }
-.container{
+.cardSection {
+  max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.container {
   margin-top: 55px;
 }
 .mycardbtn {
@@ -130,26 +150,26 @@
   transition-delay: 0.2s;
 }
 
-@media (max-width:1220px){
-  .cardSection{
-    position:relative;
+@media (max-width: 1220px) {
+  .cardSection {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin-left: 0px;
   }
 }
-@media(max-width:975px){
-  .cardSection{
-    position:relative;
+@media (max-width: 975px) {
+  .cardSection {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 0px;
   }
 }
-@media(max-width : 650px){
-  .cardSection{
-    position:relative;
+@media (max-width: 650px) {
+  .cardSection {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 5px;
