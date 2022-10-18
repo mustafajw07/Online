@@ -1,155 +1,113 @@
-.mycard{
-    width: 300px;
-    height: 400px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-image: url("https://ionicframework.com/blog/wp-content/uploads/2016/08/paolo-giubilato-ThK29bv1h24-unsplash-scaled.jpg");
-    background-size: 300px 400px; 
-    background-repeat: no-repeat;
-    margin-bottom: 25px;
-  }
-  .btn{
-    visibility: hidden;
-    width: 270px;
-    transition: transform 280ms;
-  }
-  .mycard:hover > .btn {
-    visibility: visible;
-    transform: translateY(-10px);
-  }
-  button{
-    width: 240px;
-    text-transform: uppercase;
-    height: 56px;
-    background-color: #F8F9FA;
-    border: 0;
-    color: #212529;
-    font-weight: 540;
-    font-size: 14px;
-    cursor: pointer;
-  }
-  h5 a {
-    color: #000;
-    text-decoration: none;
-    margin: 0 2px;
-    font-size: 17px;
-  }
-  a:hover{
-    opacity: 0.7;
-    transition: 0.5ms;
-  }
-  
-  @media (max-width:768px){
-    button{
-      width:200px;
-      height:40px;
-    }
-  }
-  @media (max-width:1200px){
-    .mycard{
-      width: 300px;
-      height: 400px;
-  }
-}
-.cardSection{
-    max-width: 1310px;
-    margin-left:auto;
-    margin-right:auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-.container{
-  margin-top: 55px;
-}
-.mycardbtn {
-  color: #212529;
-  position: relative;
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  margin: 0px;
-  border: none;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: black;
-  font-size: 16px;
-  padding: 25px 37px;
-  cursor: pointer;
-  text-align: center;
-  width: 260px;
-}
-
-.mycardbtn p {
-  margin: 0;
-  position: relative;
-  font-size: 13px;
-  color: #fff;
+.heading{
+  text-align: left;
   text-transform: uppercase;
-  display: block ruby;
+  font-weight: bold;
+}
+.center{
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.view-products{
+font-size: 14px;
+color: #000000;
+background-color: #ffffff;
+padding: 10px 10px;
+border: solid #000000 1px;
+transition : 579ms;
+text-align: center;
+cursor: pointer;
+width: 300px;
 }
 
-.mycardbtn::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  left: 0;
-  bottom: -7px;
-  height: 2px;
-  transition: 0.5s ease-out;
+.view-products:hover{
+background-color: #000000;
+color: #ffffff;
+}
+.mycard {
+  width: 273px;
+  height: 360px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: url("https://ionicframework.com/blog/wp-content/uploads/2016/08/paolo-giubilato-ThK29bv1h24-unsplash-scaled.jpg");
+  background-size: 300px 400px;
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+}
+.btn {
+  visibility: hidden;
+  width: 270px;
+  transition: transform 280ms;
+}
+.mycard:hover > .btn {
+  visibility: visible;
+  transform: translateY(-10px);
+}
+button {
+  width: 240px;
+  text-transform: uppercase;
+  height: 56px;
+  background-color: #f8f9fa;
+  border: 0;
+  color: #212529;
+  font-weight: 540;
+  font-size: 14px;
+  cursor: pointer;
+}
+h5 a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 2px;
+  font-size: 17px;
+}
+a:hover {
+  opacity: 0.7;
+  transition: 0.5ms;
 }
 
-.mycardbtn p::before {
-  position: absolute;
-  width: 0%;
-  inset: 0;
-  overflow: hidden;
-  transition: 0.3s ease-out;
-  display: block ruby;
+@media (max-width: 768px) {
+  button {
+    width: 200px;
+    height: 40px;
+  }
+}
+@media (max-width: 1200px) {
+  .mycard {
+    width: 273px;
+    height: 360px;
+  }
+}
+.cardSection {
+  max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
-.mycardbtn:hover::after {
-  width: 100%;
-}
-
-.mycardbtn:hover p::before {
-  width: 100%;
-}
-
-.mycardbtn:hover svg {
-  transform: translateX(15px);
-}
-
-.mycardbtn svg {
-  color: white;
-  transition: 0.2s;
-  position: relative;
-  width: 25px;
-  transition-delay: 0.2s;
-}
-
-@media (max-width:1220px){
-  .cardSection{
-    position:relative;
+@media (max-width: 1220px) {
+  .cardSection {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin-left: 0px;
   }
 }
-@media(max-width:975px){
-  .cardSection{
-    position:relative;
+@media (max-width: 975px) {
+  .cardSection {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 0px;
   }
 }
-@media(max-width : 650px){
-  .cardSection{
-    position:relative;
+@media (max-width: 650px) {
+  .cardSection {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 5px;
