@@ -22,7 +22,7 @@ import { BrandComponent } from './components/Home-Page/brand/brand.component';
 import { CardSectionComponent } from './components/Home-Page/card-section/card-section.component';
 import { SliderComponent } from './components/Home-Page/slider/slider.component';
 import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/new-arrivals.component';
-
+import { TopSellingComponent } from './components/Products-Page/top-selling/top-selling.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +37,7 @@ import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/ne
     CardSectionComponent,
     SliderComponent,
     NewArrivalsComponent,
+    TopSellingComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +48,6 @@ import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/ne
     BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

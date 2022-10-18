@@ -1,0 +1,95 @@
+.heading {
+  text-align: center;
+  font-weight: 700;
+}
+hr {
+  margin: 15px 300px 30px 300px;
+  height: 3px;
+}
+:root {
+  --radius: 8px;
+  --easing: ease;
+  --duration: 0.3s;
+  --gap: 1rem;
+  --dark: #181818;
+  --grey-3: #c4c4c4;
+  --grey-2: #dedede;
+  --grey-1: #f8f8f8;
+}
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  color: black;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button {
+  padding: 0.5rem 0.95rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  user-select: none;
+}
+button:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.card {
+  width: 1024px;
+  border-radius: var(--radius);
+  background-color: var(--grey-1);
+}
+.card__header {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: var(--gap);
+  width: 100%;
+  padding: var(--gap);
+}
+.card__avatar {
+  border-radius: var(--radius);
+}
+.card__indicator {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.card__indicator::before {
+  transition: transform var(--duration) var(--easing);
+  border-style: solid;
+  border-width: 0.25em 0.25em 0 0;
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(45deg);
+}
+.card[open] > .card__header > .card__indicator::before {
+  transform: translateY(-60%) rotate(135deg);
+}
+.card__actions {
+  margin-left: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+}
+.card__body {
+  margin-left: 110px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--gap);
+  gap: var(--gap);
+}
