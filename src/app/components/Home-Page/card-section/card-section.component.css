@@ -11,10 +11,10 @@
 }
 .view-products{
 font-size: 14px;
-color: #000000;
-background-color: #ffffff;
+color: #212529;
+background-color: #F8F9FA;
 padding: 10px 10px;
-border: solid #000000 1px;
+border: solid #212529 1px;
 transition : 579ms;
 text-align: center;
 cursor: pointer;
@@ -22,8 +22,8 @@ width: 300px;
 }
 
 .view-products:hover{
-background-color: #000000;
-color: #ffffff;
+background-color: #212529;
+color: #f8f9fa;
 }
 .mycard {
   width: 273px;

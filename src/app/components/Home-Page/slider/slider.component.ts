@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 
 @Component({
@@ -11,7 +12,8 @@ export class SliderComponent implements OnInit {
   productListActive: any = [];
   productListInActive: any = [];
 
-  constructor(private api: ApiService) { }
+  constructor(private api: ApiService,
+              private router : Router) { }
 
   ngOnInit(): void {
     this.api.getAllSliderProducts().subscribe((res:any) => {
@@ -24,6 +26,10 @@ export class SliderComponent implements OnInit {
       this.productListInActive.push(res[6]);
       this.productListInActive.push(res[7]);
     })
+  }
+
+  navigate(){
+    this.router.navigate(['/products']);
   }
 
 }
