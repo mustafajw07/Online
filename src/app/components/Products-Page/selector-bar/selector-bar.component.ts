@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 import { ApiService } from 'src/app/services/api.service';
 
 @Component({
@@ -9,6 +10,7 @@ import { ApiService } from 'src/app/services/api.service';
 export class SelectorBarComponent implements OnInit {
 
   companies:any = [];
+  id = new FormControl('');
   // categories:any = [];
 
   constructor(private api: ApiService) { }
@@ -23,4 +25,19 @@ export class SelectorBarComponent implements OnInit {
     });
   }
   
+  click(e : any){
+    let id = e.target.value;
+    if(id == 1){
+      this.api.getAllAppleProducts().subscribe((res) => console.log(res))
+    }
+    if(id == 2){
+      this.api.getAllRollingSquareProducts().subscribe((res) => console.log(res))
+    }
+    if(id == 3){
+      this.api.getAllDrDreProducts().subscribe((res) => console.log(res))
+    }
+    if(id == 4){
+      this.api.getAllSatechiProducts().subscribe((res) => console.log(res))
+    }
+  }
 }

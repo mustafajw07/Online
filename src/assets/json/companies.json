@@ -1,18 +1,22 @@
 [
     {
         "id" : 1,
-        "name": "Apple"
+        "name": "Apple",
+        "categoryId": 1
     },
     {
         "id" : 2,
-        "name": "Rolling Square"
+        "name": "Rolling Square",
+        "categoryId": 2
     },
     {
         "id" : 3,
-        "name": "Dr Dre"
+        "name": "Dr Dre",
+        "categoryId": 3
     },
     {
         "id" : 4,
-        "name": "Satechi"
+        "name": "Satechi",
+        "categoryId": 4
     }
 ]
