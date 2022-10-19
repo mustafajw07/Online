@@ -10,7 +10,7 @@ export class ErrorPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('Page Not Found');
+    console.error('Page Not Found');
   }
 
 }

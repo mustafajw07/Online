@@ -23,6 +23,10 @@ import { CardSectionComponent } from './components/Home-Page/card-section/card-s
 import { SliderComponent } from './components/Home-Page/slider/slider.component';
 import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/new-arrivals.component';
 import { TopSellingComponent } from './components/Products-Page/top-selling/top-selling.component';
+import { SelectorBarComponent } from './components/Products-Page/selector-bar/selector-bar.component';
+import { ProductsComponent } from './components/Products-Page/products/products.component';
+import { SingleProductComponent } from './components/Single-Product-Page/single-product/single-product.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +42,9 @@ import { TopSellingComponent } from './components/Products-Page/top-selling/top-
     SliderComponent,
     NewArrivalsComponent,
     TopSellingComponent,
+    SelectorBarComponent,
+    ProductsComponent,
+    SingleProductComponent,
   ],
   imports: [
     BrowserModule,
