@@ -13,6 +13,10 @@ export class NewArrivalsComponent implements OnInit {
   constructor(private api: ApiService) { }
 
   ngOnInit(): void {
+    this.getAllNewArrivals();
+  }
+
+  getAllNewArrivals(){
     this.api.getAllNewArrivals().subscribe((res) => this.productsList = res);
   }
 

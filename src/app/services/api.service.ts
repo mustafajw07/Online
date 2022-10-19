@@ -23,6 +23,12 @@ export class ApiService {
   getAllNewArrivals(){
     return this.http.get('../../assets/json/newArrivals.json');
   }
+
+  // Get All Companies
+  getAllCompanies(){
+    return this.http.get('../../assets/json/companies.json');
+  }
+
   // Apple Products Get
   getAllAppleProducts(){
     return this.http.get<Product>('../../assets/json/apple.json');

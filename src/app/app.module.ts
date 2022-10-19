@@ -22,6 +22,7 @@ import { BrandComponent } from './components/Home-Page/brand/brand.component';
 import { CardSectionComponent } from './components/Home-Page/card-section/card-section.component';
 import { SliderComponent } from './components/Home-Page/slider/slider.component';
 import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/new-arrivals.component';
+import { SelectorBarComponent } from './components/Products-Page/selector-bar/selector-bar.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/ne
     CardSectionComponent,
     SliderComponent,
     NewArrivalsComponent,
+    SelectorBarComponent,
   ],
   imports: [
     BrowserModule,

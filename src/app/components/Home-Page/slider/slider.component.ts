@@ -16,6 +16,10 @@ export class SliderComponent implements OnInit {
               private router : Router) { }
 
   ngOnInit(): void {
+    this.getAllSliderProducts();
+  }
+
+  getAllSliderProducts(){
     this.api.getAllSliderProducts().subscribe((res:any) => {
       this.productListActive.push(res[0]);
       this.productListActive.push(res[1]);
@@ -25,7 +29,7 @@ export class SliderComponent implements OnInit {
       this.productListInActive.push(res[5]);
       this.productListInActive.push(res[6]);
       this.productListInActive.push(res[7]);
-    })
+    });
   }
 
   navigate(){
