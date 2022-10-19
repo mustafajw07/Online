@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { ApiService } from 'src/app/services/api.service';
 
@@ -8,9 +8,9 @@ import { ApiService } from 'src/app/services/api.service';
   styleUrls: ['./selector-bar.component.css']
 })
 export class SelectorBarComponent implements OnInit {
-
+  @Output() updateSelected = new EventEmitter();
   companies:any = [];
-  id = new FormControl('');
+  id!: number;
   // categories:any = [];
 
   constructor(private api: ApiService) { }
@@ -25,19 +25,8 @@ export class SelectorBarComponent implements OnInit {
     });
   }
   
-  click(e : any){
-    let id = e.target.value;
-    if(id == 1){
-      this.api.getAllAppleProducts().subscribe((res) => console.log(res))
-    }
-    if(id == 2){
-      this.api.getAllRollingSquareProducts().subscribe((res) => console.log(res))
-    }
-    if(id == 3){
-      this.api.getAllDrDreProducts().subscribe((res) => console.log(res))
-    }
-    if(id == 4){
-      this.api.getAllSatechiProducts().subscribe((res) => console.log(res))
-    }
+  selected(e : any){
+    this.id = e.target.value;
+    this.updateSelected.emit(this.id);
   }
 }

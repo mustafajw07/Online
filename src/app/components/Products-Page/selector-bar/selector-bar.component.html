@@ -1,6 +1,6 @@
 
 <label class="select" for="slct">
-  <select id="slct" required="required">
+  <select id="slct" required="required" (change)="selected($event)">
     <option value="" disabled="disabled" selected="selected">Select Company</option>
     <option value="{{company.id}}" *ngFor="let company of companies">{{company.name}}</option>
   </select>
