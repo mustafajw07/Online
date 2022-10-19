@@ -24,6 +24,7 @@ import { SliderComponent } from './components/Home-Page/slider/slider.component'
 import { NewArrivalsComponent } from './components/Products-Page/new-arrivals/new-arrivals.component';
 import { SelectorBarComponent } from './components/Products-Page/selector-bar/selector-bar.component';
 import { ProductsComponent } from './components/Products-Page/products/products.component';
+import { SingleProductComponent } from './components/Single-Product-Page/single-product/single-product.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ProductsComponent } from './components/Products-Page/products/products.
     NewArrivalsComponent,
     SelectorBarComponent,
     ProductsComponent,
+    SingleProductComponent,
   ],
   imports: [
     BrowserModule,
