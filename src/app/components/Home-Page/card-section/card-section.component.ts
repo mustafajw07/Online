@@ -17,6 +17,10 @@ export class CardSectionComponent implements OnInit {
   constructor(private api: ApiService) {}
 
   ngOnInit(): void {
+    this.getAllHomePageProducts();
+  }
+
+  getAllHomePageProducts(){
     this.api.getAllHomePageProducts().subscribe((res: any) => {
       this.cardList = res;
       res.forEach((e: any) => {

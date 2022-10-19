@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "categoryList": ["Phones" , "Headphones"]
+    },
+    {
+        "id" : 2,
+        "categoryList": ["Phones" , "Headphones"]
+    },
+    {
+        "id" : 3,
+        "categoryList": ["Phones" , "Headphones"]
+    },
+    {
+        "id" : 4,
+        "categoryList": ["Phones" , "Headphones"]
+    }
+]

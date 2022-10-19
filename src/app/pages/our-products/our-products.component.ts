@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-our-products',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./our-products.component.css']
 })
 export class OurProductsComponent {
+  id! : number;
   constructor() { }
+
+  selected(e : any){
+    this.id = e;
+  }
 }
