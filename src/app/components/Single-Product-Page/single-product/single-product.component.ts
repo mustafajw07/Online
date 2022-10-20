@@ -10,7 +10,7 @@ import { ApiService } from 'src/app/services/api.service';
 export class SingleProductComponent implements OnInit {
   cid: any;
   pid: any;
-  products:any;
+  product:any;
 
   constructor(private route: ActivatedRoute,
               private router: Router,
@@ -24,22 +24,22 @@ export class SingleProductComponent implements OnInit {
   getProductById(){
     if(this.cid == 1){
       this.api.getAllAppleProducts().subscribe((res:any) => {
-        this.products = res.filter((p: any) => p.id == this.pid )
+        this.product = res.filter((p: any) => p.id == this.pid )
       });
     }
     if(this.cid == 2){
       this.api.getAllDrDreProducts().subscribe((res:any) => {
-        this.products = res.filter((p: any) => p.id == this.pid )
+        this.product = res.filter((p: any) => p.id == this.pid )
       });
     }
     if(this.cid == 3){
       this.api.getAllRollingSquareProducts().subscribe((res:any) => {
-        this.products = res.filter((p: any) => p.id == this.pid )
+        this.product = res.filter((p: any) => p.id == this.pid )
       });
     }
     if(this.cid == 4){
       this.api.getAllSatechiProducts().subscribe((res:any) => {
-        this.products = res.filter((p: any) => p.id == this.pid )
+        this.product = res.filter((p: any) => p.id == this.pid )
       });
     }
   }
