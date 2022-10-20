@@ -7,7 +7,6 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { OurProductsComponent } from './pages/our-products/our-products.component';
 
 
-
 const routes: Routes = [
   {path : '' , component : HomePageComponent},
   {path : 'products' , component : OurProductsComponent},
