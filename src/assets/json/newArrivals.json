@@ -1,0 +1,34 @@
+[
+    {
+        "id" : 1,
+        "title": "Apple",
+        "brand": "Apple",
+        "image": "http://johnlewis.scene7.com/is/image/JohnLewis/109467289",
+        "price": "14000/-",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id" : 2,
+        "title": "Rolling Square",
+        "brand": "Rolling Square",
+        "image": "https://m.media-amazon.com/images/I/510euMf6uaS._SL1000_.jpg",
+        "price": "4000/-",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id" : 3,
+        "title": "Dr Dre",
+        "brand": "Dr Dre",
+        "image": "https://m.media-amazon.com/images/I/61QllAKpqUS.jpg",
+        "price": "24000/-",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id" : 4,
+        "title": "Satechi",
+        "brand": "Satechi",
+        "image": "https://cdn.shopify.com/s/files/1/1520/4366/products/type-c-slim-multi-port-adapter-4k-multi-ports-satechi-space-gray-332976_1024x.jpg?v=1595288398",
+        "price": "7000/-",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+]

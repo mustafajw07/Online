@@ -1,0 +1,16 @@
+
+<label class="select" for="slct">
+  <select id="slct" required="required" (change)="selected($event)">
+    <option value="" disabled="disabled" selected="selected">Select Company</option>
+    <option value="{{company.id}}" *ngFor="let company of companies">{{company.name}}</option>
+  </select>
+  <svg>
+    <use xlink:href="#select-arrow-down"></use>
+  </svg>
+</label>
+<!-- SVG Sprites-->
+<svg class="sprites">
+  <symbol id="select-arrow-down" viewbox="0 0 10 6">
+    <polyline points="1 1 5 5 9 1"></polyline>
+  </symbol>
+</svg>

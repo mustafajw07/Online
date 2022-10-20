@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "name": "Apple",
+        "categoryId": 1
+    },
+    {
+        "id" : 2,
+        "name": "Dr Dre",
+        "categoryId": 2
+    },
+    {
+        "id" : 3,
+        "name": "Rolling Square",
+        "categoryId": 3
+    },
+    {
+        "id" : 4,
+        "name": "Satechi",
+        "categoryId": 4
+    }
+]

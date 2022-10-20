@@ -9,15 +9,4 @@ import { Component,HostListener } from '@angular/core';
 })
 export class HeaderComponent {
   constructor() { }
-
-  onWindowScroll() {
-    let element = document.querySelector('.navbar') as HTMLElement;
-    if (window.pageYOffset > element.clientHeight) {
-      element.classList.add('navbar-inverse');
-      console.log('true');
-    } else {
-      element.classList.remove('navbar-inverse');
-      console.log('false');
-    }
-  }
 }

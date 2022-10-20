@@ -1,0 +1,17 @@
+.heading{
+ margin: 90px 0 0 0;
+ font-weight: bolder; 
+ color: #212529;
+ opacity: 0.9;
+}
+.main{
+    margin-bottom: 50px;
+}
+hr{
+    height: 3.3px;
+    background-color: #495057;
+    opacity: 0.8;
+    margin: 10px 0 10px 0;
+    border: none;
+    width: 40px;
+}
