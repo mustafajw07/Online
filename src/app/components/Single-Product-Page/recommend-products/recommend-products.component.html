@@ -1,0 +1,14 @@
+<h3 class="heading"><span>Recommend Products</span></h3>
+<section class="container">
+    <div id='row'>
+        <div class='product--blue' *ngFor="let product of productList">
+          <div class='product_inner'>
+            <img src='http://wellandgood.com/wp-content/uploads/2012/07/Nike-Free-30-Womens-Running-Shoe-511495_600_A.png' width='300'>
+            <p>{{product.brand}}</p>
+            <p>{{product.title}}</p>
+            <p>Price {{product.price}} /-</p>
+            <button>View Prodcut</button>
+          </div>
+        </div>
+      </div>
+</section>
