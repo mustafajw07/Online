@@ -1,25 +1,31 @@
-<h3 class="heading">{{Title}} Products</h3>
+<h3 class="heading">{{ Title }} Products</h3>
 <hr />
 <div class="container">
-  <div class="col-lg-12" *ngFor="let products of productsList | paginate: { itemsPerPage: 5, currentPage: pageNumber }">
-    <div class="col-lg-12 col-md-11 box mb-2 d-flex">
+  <div
+    class="col-lg-12"
+    *ngFor="
+      let products of productsList
+        | paginate: { itemsPerPage: 5, currentPage: pageNumber }
+    "
+  >
+    <div class="col-lg-12 col-md-12 box mb-2 d-flex">
       <img
-        class="mx-2 img"
+        class="mx-2 mt-3 img"
         src="http://johnlewis.scene7.com/is/image/JohnLewis/109467289"
         width="100px"
         height="100px"
         alt=""
       />
       <div class="container">
-        <h5 class="title">{{products.title}}</h5>
-        <span class="text-muted txtcol">{{products.brand}} </span>
-        <span class="text-muted txtcol">{{products.category}} </span>
+        <h5 class="title">{{ products.title }}</h5>
+        <span class="text-muted txtcol">{{ products.brand }} </span>
+        <span class="text-muted txtcol">{{ products.category }} </span>
         <p class="txt">
-          {{products.description}}
+          {{ products.description }}
         </p>
       </div>
       <div class="col-lg-2 col-sm-12 col-md-1 price">
-        <h4 class="mt-3 mx-2">{{products.price}}</h4>
+        <h4 class="mt-3 mx-2 headtxt">{{ products.price }}</h4>
         <img
           class="mx-4"
           src="https://png.pngitem.com/pimgs/s/515-5155542_four-out-of-five-star-rating-hd-png.png"
@@ -27,7 +33,7 @@
           width="90px"
           height="45px"
         />
-        <button type="button" class="btn btn-dark mb-2 mx-2">
+        <button type="button" class="btn btntxt btn-dark mb-2 mx-2">
           View Product
         </button>
       </div>
