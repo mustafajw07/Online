@@ -2,6 +2,26 @@
   position: relative;
   min-width: 200px;
 }
+.back{
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.back a{
+  text-decoration: none;
+  margin-right: 10px;
+  color: #212529;
+  transition: all .3s;
+}
+.back a:hover{
+  color: #ADB5BD;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
 .select svg {
   position: absolute;
   right: 12px;
