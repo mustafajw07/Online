@@ -11,8 +11,8 @@ const routes: Routes = [
   {path : '' , component : HomePageComponent},
   {path : 'products' , component : OurProductsComponent},
   {path : 'products/:company' , component : OurProductsComponent , pathMatch : 'full'},
-  {path : 'contact' , component : ContactUsPageComponent, pathMatch : 'full'},
   {path : 'products/:cid/:pid' , component : SingleProductComponent , pathMatch : 'full'},
+  {path : 'contact' , component : ContactUsPageComponent, pathMatch : 'full'},
   {path : '**' , component : ErrorPageComponent , pathMatch : "full"},
 ];
 
