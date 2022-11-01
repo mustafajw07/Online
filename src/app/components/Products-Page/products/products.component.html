@@ -1,7 +1,7 @@
 <h3 class="heading">{{ Title }} Products</h3>
 <div class="container">
   <div
-    class="col-lg-12"
+    class="col-lg-12 my-5"
     *ngFor="
       let products of productsList
         | paginate: { itemsPerPage: 5, currentPage: pageNumber }
@@ -28,7 +28,7 @@
           {{ products.price }}
         </h4>
 
-        <div class="mx-3">
+        <div class="mx-3 star">
           <i class="fa fa-star" style="color: gold"></i>
           <i class="fa fa-star" style="color: gold"></i>
           <i class="fa fa-star" style="color: gold"></i>
