@@ -1,12 +1,17 @@
-footer{
-    background-color: #DEE2E6;
+footer {
+  background-color: #dee2e6;
 }
-.social{
-    background-color: #495057;
+.social {
+  background-color: #495057;
 }
-.copyright{
-    background-color: #ADB5BD;
+.copyright {
+  background-color: #adb5bd;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .txt {
+    margin-right: 16px !important;
+  }
 }
