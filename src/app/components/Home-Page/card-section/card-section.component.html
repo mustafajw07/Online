@@ -1,7 +1,5 @@
 <section class="container">
-  <div class="heading">
-    <h2 class="my-4">Apple</h2>
-  </div>
+  <h3 class="heading my-5"><span>Apple</span></h3>
   <div class="cardSection">
     <div *ngFor="let apple of apple">
       <div class="mycard">
@@ -10,35 +8,30 @@
         </div>
       </div>
       <h5>
-        <a routerLink="/">{{ apple.title }}</a>
+        {{ apple.title }}
       </h5>
     </div>
   </div>
-<div class="center">
-  <button class="view-products" (click)="navigate('apple')"> View Apple Products </button>
-</div>
-  <div class="heading">
-    <h2 class="my-4">SATECHI</h2>
+  <div class="center">
+    <button class="view-products" (click)="navigate('apple')"> View Apple Products </button>
   </div>
-
+  <h3 class="heading my-5"><span>Satechi</span></h3>
   <div class="cardSection">
     <div *ngFor="let satechi of satechi">
       <div class="mycard">
         <div class="btn">
-          <button>View Product</button>
+          <button class="view-product">View Product</button>
         </div>
       </div>
       <h5>
-        <a routerLink="/">{{ satechi.title }}</a>
+        {{ satechi.title }}
       </h5>
     </div>
   </div>
   <div class="center">
     <button class="view-products" (click)="navigate('satechi')"> View Satechi Products </button>
   </div>
-  <div class="heading">
-    <h2 class="my-4">Rolling Square</h2>
-  </div>
+  <h3 class="heading my-5"><span>Rolling Square</span></h3>
   <div class="cardSection">
     <div *ngFor="let rollingSquare of rollingSquare">
       <div class="mycard">
@@ -47,16 +40,14 @@
         </div>
       </div>
       <h5>
-        <a routerLink="/">{{ rollingSquare.title }}</a>
+      {{ rollingSquare.title }}
       </h5>
     </div>
   </div>
   <div class="center">
     <button class="view-products" (click)="navigate('rollingsquare')"> View Rolling Square Products </button>
   </div>
-  <div class="heading">
-    <h2 class="my-4">Dr Dre</h2>
-  </div>
+  <h3 class="heading my-5"><span>Dr Dre</span></h3>
   <div class="cardSection">
     <div *ngFor="let drDre of drDre">
       <div class="mycard">
@@ -65,7 +56,7 @@
         </div>
       </div>
       <h5>
-        <a routerLink="/">{{ drDre.title }}</a>
+        {{ drDre.title }}
       </h5>
     </div>
   </div>
