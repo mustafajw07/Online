@@ -24,6 +24,11 @@ export class ApiService {
     return this.http.get('../../assets/json/newArrivals.json');
   }
 
+  // Get All Top Selling
+  getAllTopSelling(){
+    return this.http.get('../../assets/json/topSelling.json');
+  }
+
   // Get All Companies
   getAllCompanies(){
     return this.http.get('../../assets/json/companies.json');

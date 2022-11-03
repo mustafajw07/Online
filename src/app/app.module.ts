@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // Modules
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 //Main Components
 import { AppComponent } from './app.component';
@@ -26,6 +27,8 @@ import { TopSellingComponent } from './components/Products-Page/top-selling/top-
 import { SelectorBarComponent } from './components/Products-Page/selector-bar/selector-bar.component';
 import { ProductsComponent } from './components/Products-Page/products/products.component';
 import { SingleProductComponent } from './components/Single-Product-Page/single-product/single-product.component';
+import { RecommendProductsComponent } from './components/Single-Product-Page/recommend-products/recommend-products.component';
+
 
 @NgModule({
   declarations: [
@@ -45,6 +48,7 @@ import { SingleProductComponent } from './components/Single-Product-Page/single-
     SelectorBarComponent,
     ProductsComponent,
     SingleProductComponent,
+    RecommendProductsComponent
   ],
   imports: [
     BrowserModule,
@@ -52,6 +56,7 @@ import { SingleProductComponent } from './components/Single-Product-Page/single-
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
+    NgxPaginationModule,
     BrowserAnimationsModule,
   ],
   providers: [],

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 
 
@@ -14,7 +15,7 @@ export class CardSectionComponent implements OnInit {
   rollingSquare: any = [];
   drDre: any = [];
 
-  constructor(private api: ApiService) {}
+  constructor(private api: ApiService , private router: Router) {}
 
   ngOnInit(): void {
     this.getAllHomePageProducts();
@@ -39,4 +40,10 @@ export class CardSectionComponent implements OnInit {
       });
     });
   }
+
+  navigate(param : any){
+    this.router.navigate([`/products/${param}`]);
+  }
+
+
 }

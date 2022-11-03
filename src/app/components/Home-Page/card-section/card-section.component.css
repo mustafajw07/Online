@@ -1,7 +1,15 @@
-.heading{
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: bold;
+.heading {
+  font-weight: 700;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 40px; 
+} 
+
+.heading span { 
+   background:#F8F9FA; 
+   padding:0 10px; 
 }
 .center{
   margin-top: 35px;
@@ -35,6 +43,8 @@ color: #f8f9fa;
   background-size: 300px 400px;
   background-repeat: no-repeat;
   margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .btn {
   visibility: hidden;
@@ -55,16 +65,13 @@ button {
   font-weight: 540;
   font-size: 14px;
   cursor: pointer;
+  border-radius: 6px;
 }
-h5 a {
+h5 {
   color: #000;
   text-decoration: none;
   margin: 0 2px;
   font-size: 17px;
-}
-a:hover {
-  opacity: 0.7;
-  transition: 0.5ms;
 }
 
 @media (max-width: 768px) {
