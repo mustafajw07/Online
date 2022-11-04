@@ -1,7 +1,7 @@
 <h3 class="heading"><span>Recommend Products</span></h3>
 <section class="container">
   <div id="row">
-    <div class="product--blue" *ngFor="let product of productList">
+    <div class="product" *ngFor="let product of productList">
       <div class="product_inner">
         <img
           src="http://wellandgood.com/wp-content/uploads/2012/07/Nike-Free-30-Womens-Running-Shoe-511495_600_A.png"
@@ -12,7 +12,7 @@
         <p class="text-dark" style="font-weight: normal">
           Price {{ product.price }} /-
         </p>
-        <button>View Prodcut</button>
+        <button>View Product</button>
       </div>
     </div>
   </div>
