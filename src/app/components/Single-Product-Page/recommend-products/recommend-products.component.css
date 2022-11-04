@@ -56,10 +56,15 @@
   color: rgba(255, 255, 255, 0.9);
 }
 .product_inner button {
+  text-align: center;
   border: 1px solid #212529;
   color: #000000;
   border-radius: 3px;
-  padding: 1em 3em;
+  /* padding: 1em 3em; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 39px;
   margin: 1em 0 0 0;
   background: none;
   cursor: pointer;
@@ -67,7 +72,7 @@
   transition: background ease-in 0.25s;
 }
 .product_inner button:hover {
-  background: #495057;
+  background: #212529;
   color: #ffffff;
 }
 .product_inner button:before {
@@ -76,7 +81,7 @@
   color: rgb(0, 0, 0);
   position: absolute;
   font-size: 1.5em;
-  margin: 0 -1.5em;
+  margin: -3px -1.5em;
 }
 .product_inner button:hover:before {
   color: #f9f9f9;
