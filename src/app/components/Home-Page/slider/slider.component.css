@@ -54,8 +54,9 @@ h2::after {
 }
 
 .carousel .carousel-item h4 {
-  font-size: 12px;
-  margin: 10px 0;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
 }
 
 .carousel .carousel-item .btn {
@@ -256,5 +257,10 @@ h2::after {
 @media (min-width: 769px) {
   .img-box{
     margin-top: 35px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel .carousel-item h4{
+  font-size: 12px;
   }
 }
