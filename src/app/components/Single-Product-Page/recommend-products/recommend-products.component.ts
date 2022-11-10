@@ -21,7 +21,7 @@ export class RecommendProductsComponent implements OnInit {
       });
     }
     if(this.cid == 2){
-      this.api.getAllDrDreProducts().subscribe((res:any) => {
+      this.api.getAllBOProducts().subscribe((res:any) => {
         for (let index = 0; index < 4; index++) {
           let x = Math.floor((Math.random() * res.length-1) + 1);
           this.productList.push(res[x])

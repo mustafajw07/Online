@@ -28,7 +28,7 @@ export class SingleProductComponent implements OnInit {
       });
     }
     if(this.cid == 2){
-      this.api.getAllDrDreProducts().subscribe((res:any) => {
+      this.api.getAllBOProducts().subscribe((res:any) => {
         this.product = res.filter((p: any) => p.id == this.pid )
       });
     }
