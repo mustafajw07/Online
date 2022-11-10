@@ -44,9 +44,9 @@ export class ApiService {
     return this.http.get('../../assets/json/satechi.json');
   } 
 
-  // DrDre Products Get
-  getAllDrDreProducts(){
-    return this.http.get('../../assets/json/drdre.json');
+  // B&O Products Get
+  getAllBOProducts(){
+    return this.http.get('../../assets/json/b&o.json');
   }
 
   // Rolling Square Products Get

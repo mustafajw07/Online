@@ -29,7 +29,7 @@ export class SelectorBarComponent implements OnInit {
     this.getAllCompanies();
 
       }
-      if(company == 'drDre'){
+      if(company == 'b&o'){
         this.id = 2;
         this.updateSelected.emit(this.id);
     this.getAllCompanies();
@@ -62,7 +62,7 @@ export class SelectorBarComponent implements OnInit {
       this.router.navigate(['/products/apple'])
     }
     if(this.id == 2){
-      this.router.navigate(['/products/drDre'])
+      this.router.navigate(['/products/b&o'])
     }
     if(this.id == 3){
       this.router.navigate(['/products/rollingSquare'])

@@ -27,8 +27,8 @@ export class ProductsComponent implements OnChanges {
       this.pageNumber = 1;
     }
     if(this.id == 2){
-      this.api.getAllDrDreProducts().subscribe((res) => this.productsList = res);
-      this.Title = "Dr Dre";
+      this.api.getAllBOProducts().subscribe((res) => this.productsList = res);
+      this.Title = "B&O";
       this.pageNumber = 1;
     }
     if(this.id == 3){
