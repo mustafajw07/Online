@@ -47,20 +47,20 @@
   <div class="center">
     <button class="view-products" (click)="navigate('rollingsquare')"> View Rolling Square Products </button>
   </div>
-  <h3 class="heading my-5"><span>Dr Dre</span></h3>
+  <h3 class="heading my-5"><span>B&O</span></h3>
   <div class="cardSection">
-    <div *ngFor="let drDre of drDre">
+    <div *ngFor="let bo of bo">
       <div class="mycard">
         <div class="btn">
           <button>View Product</button>
         </div>
       </div>
       <h5>
-        {{ drDre.title }}
+        {{ bo.title }}
       </h5>
     </div>
   </div>
   <div class="center">
-    <button class="view-products" (click)="navigate('drdre')"> View Dr Dre Products </button>
+    <button class="view-products" (click)="navigate('b&o')"> View B&O Products </button>
   </div>
 </section>
