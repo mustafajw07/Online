@@ -35,11 +35,11 @@ color: #f8f9fa;
 }
 .cardSection {
   max-width: 1310px;
-  margin-left: 55px;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .mycard {
   width: 273px;
@@ -47,7 +47,6 @@ color: #f8f9fa;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url("https://ionicframework.com/blog/wp-content/uploads/2016/08/paolo-giubilato-ThK29bv1h24-unsplash-scaled.jpg");
   background-size: 300px 400px;
   background-repeat: no-repeat;
   margin-bottom: 25px;
@@ -67,9 +66,9 @@ button {
   width: 240px;
   text-transform: uppercase;
   height: 56px;
-  background-color: #f8f9fa;
+  background-color: #212529;
   border: 0;
-  color: #212529;
+  color: #F8F9FA;
   font-weight: 540;
   font-size: 14px;
   cursor: pointer;
@@ -86,7 +85,7 @@ h5 {
 @media (max-width: 768px) {
   button {
     width: 200px;
-    height: 40px;
+    height: 50px;
   }
 }
 
