@@ -7,7 +7,7 @@
   </p>
 </div>
 <app-new-arrivals></app-new-arrivals>
-<app-selector-bar (updateSelected) = "selected($event)"></app-selector-bar>
-<app-products [id] = "id"></app-products>
-<!-- <app-top-selling></app-top-selling> -->
+<app-selector-bar (updateSelected)="selected($event)"></app-selector-bar>
+<app-products [id]="id"></app-products>
+<app-top-selling></app-top-selling>
 <app-footer></app-footer>
