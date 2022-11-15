@@ -38,7 +38,7 @@ export class SingleProductComponent implements OnInit {
       });
     }
     if(this.cid == 4){
-      this.api.getAllSatechiProducts().subscribe((res:any) => {
+      this.api.getAllKeychronProducts().subscribe((res:any) => {
         this.product = res.filter((p: any) => p.id == this.pid )
       });
     }
