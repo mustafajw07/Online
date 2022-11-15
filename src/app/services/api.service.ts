@@ -39,9 +39,9 @@ export class ApiService {
     return this.http.get('../../assets/json/apple.json');
   }
 
-  // Satechi Products Get
-  getAllSatechiProducts(){
-    return this.http.get('../../assets/json/satechi.json');
+  // Keychron Products Get
+  getAllKeychronProducts(){
+    return this.http.get('../../assets/json/keychron.json');
   } 
 
   // B&O Products Get

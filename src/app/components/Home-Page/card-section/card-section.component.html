@@ -12,18 +12,18 @@
   <div class="center">
     <button class="view-products" (click)="navigate('apple')"> View Apple Products </button>
   </div>
-  <h3 class="heading my-5"><span>Satechi</span></h3>
+  <h3 class="heading my-5"><span>Keychron</span></h3>
   <div class="cardSection">
-    <div *ngFor="let satechi of satechi">
-      <div class="mycard" style='background-image: url({{satechi.image}});'>
+    <div *ngFor="let keychron of keychron">
+      <div class="mycard" style='background-image: url({{keychron.image}});'>
       </div>
       <h5>
-        {{ satechi.title }}
+        {{ keychron.title }}
       </h5>
     </div>
   </div>
   <div class="center">
-    <button class="view-products" (click)="navigate('satechi')"> View Satechi Products </button>
+    <button class="view-products" (click)="navigate('keychron')"> View Keychron Products </button>
   </div>
   <h3 class="heading my-5"><span>Rolling Square</span></h3>
   <div class="cardSection">
