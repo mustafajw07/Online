@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Partials/header/header.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { OurProductsComponent } from './pages/our-products/our-products.component';
+import { SingleProductPageComponent } from './pages/single-product-page/single-product-page.component';
 import { ContactUsPageComponent } from './pages/contact-us-page/contact-us-page.component';
 import { FooterComponent } from './Partials/footer/footer.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
@@ -48,7 +49,8 @@ import { RecommendProductsComponent } from './components/Single-Product-Page/rec
     SelectorBarComponent,
     ProductsComponent,
     SingleProductComponent,
-    RecommendProductsComponent
+    RecommendProductsComponent,
+    SingleProductPageComponent
   ],
   imports: [
     BrowserModule,
