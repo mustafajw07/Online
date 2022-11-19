@@ -4,41 +4,27 @@
         "title": "Iphone 14 Plus",
         "brand": "Apple",
         "image": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "price": "599/-"
       },
       {
         "id": 2,
         "title": "Iphone 14 Pro Max",
         "brand": "Apple",
         "image": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "price": "599/-"
       },
       {
         "id": 3,
         "title": "M1 Wireless Mouse",
-        "brand": "satechi",
+        "brand": "keychron",
         "image": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "price": "599/-"
       },
       {
         "id": 4,
-        "title": "Slim X1 Bluetooth Backlit Keyboard",
-        "brand": "satechi",
+        "title": "Slim Backlit Keyboard",
+        "brand": "keychron",
         "image": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-      },
-      {
-        "id": 5,
-        "title": "Edge Light",
-        "brand": "Rolling Square",
-        "image": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-      },
-      {
-        "id": 6,
-        "title": "Hyphen 2",
-        "brand": "Rolling Square",
-        "image": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        "price": "599/-"
       }
 ]

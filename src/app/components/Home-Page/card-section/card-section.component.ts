@@ -11,7 +11,7 @@ import { ApiService } from 'src/app/services/api.service';
 export class CardSectionComponent implements OnInit {
   cardList: any = [];
   apple: any = [];
-  satechi: any = [];
+  keychron: any = [];
   rollingSquare: any = [];
   bo: any = [];
 
@@ -28,8 +28,8 @@ export class CardSectionComponent implements OnInit {
         if (e.brand == 'Apple') {
           this.apple.push(e);
         }
-        if (e.brand == 'satechi') {
-          this.satechi.push(e);
+        if (e.brand == 'keychron') {
+          this.keychron.push(e);
         }
         if (e.brand == 'Rolling Square') {
           this.rollingSquare.push(e);

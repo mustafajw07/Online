@@ -1,4 +1,5 @@
 <app-header></app-header>
+<app-back-to-top></app-back-to-top>
 <div class="container main">
   <h3 class="heading">Our Products</h3>
   <hr />
@@ -7,7 +8,8 @@
   </p>
 </div>
 <app-new-arrivals></app-new-arrivals>
-<app-selector-bar (updateSelected) = "selected($event)"></app-selector-bar>
-<app-products [id] = "id"></app-products>
-<!-- <app-top-selling></app-top-selling> -->
+<app-selector-bar (updateSelected)="selected($event)"></app-selector-bar>
+<app-products [id]="id"></app-products>
+<app-top-selling></app-top-selling>
+<app-whatsappbtn></app-whatsappbtn>
 <app-footer></app-footer>

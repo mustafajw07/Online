@@ -37,8 +37,8 @@ export class ProductsComponent implements OnChanges {
       this.pageNumber = 1;
     }
     if(this.id == 4){
-      this.api.getAllSatechiProducts().subscribe((res) => this.productsList = res);
-      this.Title = "Satechi";
+      this.api.getAllKeychronProducts().subscribe((res) => this.productsList = res);
+      this.Title = "Keychron";
       this.pageNumber = 1;
     }
   }

@@ -22,62 +22,90 @@
   },
   {
     "id": 4,
-    "title": "M1 Wireless Mouse",
-    "brand": "satechi",
-    "image": "../../assets/images/HomePage/satechiCardImg.jpg",
+    "title": "Apple Watch Ultra",
+    "brand": "Apple",
+    "image": "../../assets/images/HomePage/appleCardImg.jpg",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     "id": 5,
-    "title": "Slim X1 Bluetooth Backlit Keyboard",
-    "brand": "satechi",
-    "image": "../../assets/images/HomePage/satechiCardImg.jpg",
+    "title": "M1 Wireless Mouse",
+    "brand": "keychron",
+    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     "id": 6,
-    "title": "5-Port USB Charging Station Dock",
-    "brand": "satechi",
-    "image": "../../assets/images/HomePage/satechiCardImg.jpg",
+    "title": "Bluetooth Backlit Keyboard",
+    "brand": "keychron",
+    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     "id": 7,
+    "title": "5USB Charging Station",
+    "brand": "keychron",
+    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 8,
+    "title": "5USB Charging Station",
+    "brand": "keychron",
+    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 9,
     "title": "Edge Light",
     "brand": "Rolling Square",
     "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Hyphen 2",
     "brand": "Rolling Square",
     "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Wireless Charger 15W",
     "brand": "Rolling Square",
     "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    "id": 10,
+    "id": 12,
+    "title": "Wireless Charger 15W",
+    "brand": "Rolling Square",
+    "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 13,
     "title": "Apple 13",
     "brand": "B&O",
     "image": "../../assets/images/HomePage/b&o.jpg",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Apple 13 Mini",
     "brand": "B&O",
     "image": "../../assets/images/HomePage/b&o.jpg",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
-    "id": 12,
+    "id": 15,
+    "title": "Apple 13 Pro",
+    "brand": "B&O",
+    "image": "../../assets/images/HomePage/b&o.jpg",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 16,
     "title": "Apple 13 Pro",
     "brand": "B&O",
     "image": "../../assets/images/HomePage/b&o.jpg",

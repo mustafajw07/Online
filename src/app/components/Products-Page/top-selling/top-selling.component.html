@@ -1,0 +1,21 @@
+<div class="container px-4 py-5" id="hanging-icons">
+  <h3 class="heading"><span>Top Selling</span></h3>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-2 mb-3">
+    <div class="col d-flex align-items-start" *ngFor="let product of productsList">
+      <div
+        class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+      >
+        <img
+          class="img"
+          src="https://cdn.shopify.com/s/files/1/0602/9334/9613/products/iphone-12-pro_Color__Blue_large.png?v=1662840426"
+          alt=""
+          height="200"
+        />
+      </div>
+      <div class="mt-4">
+        <span>{{product.brand}}</span>
+        <h3 class="txt mt-2">{{product.title}}</h3>
+        <h5>{{product.price}}</h5>
+      </div>
+    </div>
+</div>
