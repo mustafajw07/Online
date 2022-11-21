@@ -8,10 +8,19 @@ import { ApiService } from 'src/app/services/api.service';
   styleUrls: ['./single-product.component.css']
 })
 export class SingleProductComponent implements OnInit {
+  img = "https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png";
+  img2 = "https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png";
+  top ='2';
+  right = '2';
+  lensewidth = '100';
+  lensheight = '100';
+  resultWidth = '50';
+  resultheight = '50';
+
   cid: any;
   pid: any;
   product:any;
-
+  
   constructor(private route: ActivatedRoute,
               private router: Router,
               private api: ApiService) { }
