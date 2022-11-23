@@ -5,3 +5,37 @@
 .carousel-control-next-icon {
   background-image: url("https://cdn-icons-png.flaticon.com/128/271/271228.png");
 }
+
+.carousel-item{
+  margin-left: 75px;
+}
+
+@media (max-width: 1200px) {
+  .carousel-item{
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-item{
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 450px) and (max-width:767px) {
+  .carousel-item{
+    margin-left: 108px;
+  }
+}
+
+@media (min-width: 370px) and (max-width:415px) {
+  .carousel-item{
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  .carousel-item{
+    margin-left: 15px;
+  }
+}
