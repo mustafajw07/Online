@@ -4,20 +4,20 @@
       <div class="col-lg-5">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active" style="margin-top: 17%">
-              <ng-img-magnifier id="myimage" [thumbImage]='img' [fullImage]='img2' [top]='top' [right]='right'
-                [resultWidth]='resultWidth' [lensWidth]='lensewidth' [lensHeight]='lensheight' [resultHeight]='resultheight' class="d-block w-100" alt="...">
-              </ng-img-magnifier>
+            <div class="carousel-item active" style="margin-top: 17%" id="zoom">
+              <img
+                src="https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png"
+                class="d-block w-100" alt="..." />
             </div>
-            <div class="carousel-item" style="margin-top: 17%">
-              <ng-img-magnifier id="myimage" [thumbImage]='img' [fullImage]='img2' [top]='top' [right]='right'
-                [resultWidth]='resultWidth' [lensWidth]='lensewidth' [lensHeight]='lensheight' [resultHeight]='resultheight' class="d-block w-100" alt="...">
-              </ng-img-magnifier>
+            <div class="carousel-item" style="margin-top: 17%" id="zoom">
+              <img
+                src="https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png"
+                class="d-block w-100" alt="..." />
             </div>
-            <div class="carousel-item" style="margin-top: 17%">
-              <ng-img-magnifier id="myimage" [thumbImage]='img' [fullImage]='img2' [top]='top' [right]='right'
-                [resultWidth]='resultWidth' [lensWidth]='lensewidth' [lensHeight]='lensheight' [resultHeight]='resultheight' class="d-block w-100" alt="...">
-              </ng-img-magnifier>
+            <div class="carousel-item" style="margin-top: 17%" id="zoom">
+              <img
+                src="https://media.croma.com/image/upload/v1662703105/Croma%20Assets/Communication/Mobiles/Images/261963_oqrd6j.png"
+                class="d-block w-100" alt="..." />
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -76,3 +76,11 @@
   </div>
 </section>
 <app-recommend-products [cid]="cid"></app-recommend-products>
+
+<script>
+  $(document).ready(function () {
+      $("#zoom").imagezoomsl({
+        zoomrange : [4,4]
+      });
+    });
+</script>
