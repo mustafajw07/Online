@@ -8,10 +8,11 @@ import { ApiService } from 'src/app/services/api.service';
   styleUrls: ['./single-product.component.css']
 })
 export class SingleProductComponent implements OnInit {
+
   cid: any;
   pid: any;
   product:any;
-
+  
   constructor(private route: ActivatedRoute,
               private router: Router,
               private api: ApiService) { }

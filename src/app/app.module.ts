@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 // Modules
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgxPaginationModule} from 'ngx-pagination';
-import { NgxImgZoomModule } from 'ngx-img-zoom';
 
 //Main Components
 import { AppComponent } from './app.component';
@@ -70,7 +69,6 @@ import { WhatsappbtnComponent } from './components/whatsappbtn/whatsappbtn.compo
     ReactiveFormsModule,
     FormsModule,
     NgxPaginationModule,
-    NgxImgZoomModule,
     BrowserAnimationsModule
   ],
   providers: [],
