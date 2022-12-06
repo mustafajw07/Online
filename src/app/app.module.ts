@@ -36,6 +36,7 @@ import { TopSellingComponent } from './components/Products-Page/top-selling/top-
 // Single Products Page
 import { SingleProductComponent } from './components/Single-Product-Page/single-product/single-product.component';
 import { RecommendProductsComponent } from './components/Single-Product-Page/recommend-products/recommend-products.component';
+import { WhatsappbtnComponent } from './components/whatsappbtn/whatsappbtn.component';
 
 
 @NgModule({
@@ -58,7 +59,8 @@ import { RecommendProductsComponent } from './components/Single-Product-Page/rec
     SingleProductComponent,
     RecommendProductsComponent,
     SingleProductPageComponent,
-    BackToTopComponent
+    BackToTopComponent,
+    WhatsappbtnComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +69,7 @@ import { RecommendProductsComponent } from './components/Single-Product-Page/rec
     ReactiveFormsModule,
     FormsModule,
     NgxPaginationModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
