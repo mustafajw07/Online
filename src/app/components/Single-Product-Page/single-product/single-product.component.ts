@@ -20,7 +20,11 @@ export class SingleProductComponent implements OnInit {
   ngOnInit(): void {
     this.cid = this.route.snapshot.paramMap.get('cid');
     this.pid = this.route.snapshot.paramMap.get('pid');
-    this.getProductById();
+    this.route.params.subscribe((params) => {
+      this.cid = this.route.snapshot.paramMap.get('cid');
+      this.pid = this.route.snapshot.paramMap.get('pid');
+      this.getProductById();
+    })
   }
   getProductById(){
     if(this.cid == 1){

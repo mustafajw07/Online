@@ -1,4 +1,5 @@
 import { Component, Input, OnChanges } from '@angular/core';
+import { Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 
 @Component({
@@ -11,7 +12,7 @@ export class ProductsComponent implements OnChanges {
   productsList:any;
   Title = 'All';
   pageNumber: number = 1;
-  constructor(private api: ApiService) { }
+  constructor(private api: ApiService , private router: Router) { }
 
   ngOnChanges(changes: any) {
     this.id = changes.id.currentValue;
@@ -19,7 +20,7 @@ export class ProductsComponent implements OnChanges {
       this.id = 0;
     }
     if(this.id == 0){
-      this.api.getAllAppleProducts().subscribe((res) => this.productsList = res);
+      this.api.getAllProducts().subscribe((res) => this.productsList = res);
     }
     if(this.id == 1){
       this.api.getAllAppleProducts().subscribe((res) => this.productsList = res);
@@ -41,6 +42,10 @@ export class ProductsComponent implements OnChanges {
       this.Title = "Keychron";
       this.pageNumber = 1;
     }
+  }
+
+  navigate(cid:any,id :any){
+    this.router.navigate([`products/${cid}/${id}`])
   }
 
 }

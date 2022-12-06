@@ -34,6 +34,11 @@ export class ApiService {
     return this.http.get('../../assets/json/companies.json');
   }
 
+  // Get All Products
+  getAllProducts(){
+    return this.http.get('../../assets/json/allProducts.json');
+  }
+
   // Apple Products Get
   getAllAppleProducts(){
     return this.http.get('../../assets/json/apple.json');

@@ -24,17 +24,13 @@
         </p>
       </div>
       <div class="col-lg-2 col-sm-12 col-md-1 price mt-3">
-        <h4 class="mt-3 mx-3 headtxt" style="font-weight: bold">
-          {{ products.price }}
-        </h4>
-
         <div class="mx-3 star">
           <i class="fa fa-star" style="color: gold"></i>
           <i class="fa fa-star" style="color: gold"></i>
           <i class="fa fa-star" style="color: gold"></i>
           <i class="fa fa-star" style="color: gold"></i>
         </div>
-        <button type="button" class="btn btntxt btn-dark my-3 mb-2 mx-2 btncss">
+        <button type="button" class="btn btntxt btn-dark my-3 mb-2 mx-2 btncss" (click)="navigate(products.cid , products.id)">
           View Product
         </button>
       </div>
