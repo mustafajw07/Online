@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "title": "Iphone 14" ,
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "AED 4199 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 2,
+    "title": "Iphone 14 Pro",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 3,
+    "title": "Iphone 14 Plus",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 4,
+    "title": "Iphone 14 Pro Max",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 5,
+    "title": "MacBook Air M2",
+    "description": "",
+    "color": "Midnight",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 6,
+    "title": "MacBook Air M2",
+    "description": "",
+    "color": "Silver",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 7,
+    "title": "MacBook Air M2",
+    "description": "",
+    "color": "Space Grey",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 8,
+    "title": "MacBook Air M2",
+    "description": "",
+    "color": "Star Light",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 9,
+    "title": "MacBook Pro",
+    "description": "",
+    "color": "Silver",
+    "size": "14-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 10,
+    "title": "MacBook Pro",
+    "description": "",
+    "color": "Silver",
+    "size": "16-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 11,
+    "title": "MacBook Pro",
+    "description": "",
+    "color": "Silver",
+    "size": "13-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 12,
+    "title": "MacBook Pro",
+    "description": "",
+    "color": "Space Grey",
+    "size": "13-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },{
+    "id": 13,
+    "title": "InChargeX",
+    "description": "",
+    "color": "Black",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  }
+  ,{
+    "id": 14,
+    "title": "InChargeX",
+    "description": "",
+    "color": "Blue",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  }
+  ,{
+    "id": 15,
+    "title": "InChargeX",
+    "description": "",
+    "color": "Gold",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  }
+  ,{
+    "id": 16,
+    "title": "TUA",
+    "description": "",
+    "color": "Black",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  }
+  ,{
+    "id": 17,
+    "title": "TUA",
+    "description": "",
+    "color": "Olive Green",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  }
+  ,{
+    "id": 18,
+    "title": "TUA",
+    "description": "",
+    "color": "White",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  },{
+    "id": 19,
+    "title": "EDGE",
+    "description": "",
+    "color": "White",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  },
+  {
+    "id": 20,
+    "title": "EDGE",
+    "description": "",
+    "color": "Grey",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  },
+  {
+    "id": 21,
+    "title": "EDGE",
+    "description": "",
+    "color": "Red",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  }
+]
