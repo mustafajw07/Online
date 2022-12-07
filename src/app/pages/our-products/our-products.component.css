@@ -1,17 +1,37 @@
-.heading{
- margin: 90px 0 0 0;
- font-weight: bolder; 
- color: #212529;
- opacity: 0.9;
+.heading {
+  margin: 90px 0 0 0;
+  font-weight: bolder;
+  color: #212529;
+  opacity: 0.9;
+  display: block;
+  animation-name: moveInleft;
+  animation-duration: 3s;
+  font-size: 50px;
 }
-.main{
-    margin-bottom: 50px;
+
+@keyframes moveInleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
-hr{
-    height: 3.3px;
-    background-color: #495057;
-    opacity: 0.8;
-    margin: 10px 0 10px 0;
-    border: none;
-    width: 40px;
+
+.main {
+  margin-bottom: 50px;
+}
+hr {
+  height: 3.3px;
+  background-color: #495057;
+  opacity: 0.8;
+  margin: 10px 0 10px 0;
+  border: none;
+  width: 40px;
 }

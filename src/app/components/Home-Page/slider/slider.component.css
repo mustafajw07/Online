@@ -88,12 +88,17 @@ h2::after {
 
 .carousel .thumb-wrapper {
   text-align: center;
+  margin-bottom: 10px;
+}
+.carousel .thumb-wrapper:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .carousel .thumb-content {
   padding: 15px;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -239,6 +244,36 @@ h2::after {
   width: 25px;
   transition-delay: 0.2s;
 }
+.btnproduct {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
 
 @media (min-width: 576px) and (max-width: 768px) {
   .carousel .carousel-item .btn {
@@ -255,12 +290,12 @@ h2::after {
   }
 }
 @media (min-width: 769px) {
-  .img-box{
+  .img-box {
     margin-top: 35px;
   }
 }
 @media (min-width: 992px) {
-  .carousel .carousel-item h4{
-  font-size: 12px;
+  .carousel .carousel-item h4 {
+    font-size: 12px;
   }
 }
