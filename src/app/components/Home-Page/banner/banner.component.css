@@ -1,129 +1,126 @@
 .imgcontainer {
-    position: relative;
-  }
-  button {
-    color: #212529;
-    position: relative;
-    display: flex;
-    font-size: 7px;
-    gap: 0.5rem;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    border: none;
-    background: none;
-  }
+  position: relative;
+}
+button {
+  color: #212529;
+  position: relative;
+  display: flex;
+  font-size: 7px;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
 
-  button p {
-    margin: 0;
-    position: relative;
-    font-size: 13px;
-    color: #212529;
-    text-transform: uppercase;
-    display: block ruby;
-  }
+button p {
+  margin: 0;
+  position: relative;
+  font-size: 13px;
+  color: #212529;
+  text-transform: uppercase;
+  display: block ruby;
+}
 
-  button::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    left: 0;
-    bottom: -7px;
-    height: 2px;
-    transition: 0.5s ease-out;
-  }
+button::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  height: 2px;
+  transition: 0.5s ease-out;
+}
 
-  button p::before {
-    position: absolute;
-    width: 0%;
-    inset: 0;
-    overflow: hidden;
-    transition: 0.3s ease-out;
-    display: block ruby;
-  }
+button p::before {
+  position: absolute;
+  width: 0%;
+  inset: 0;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  display: block ruby;
+}
 
-  button:hover::after {
+button:hover::after {
+  width: 100%;
+}
+
+button:hover p::before {
+  width: 100%;
+}
+
+button:hover svg {
+  transform: translateX(15px);
+}
+
+button svg {
+  color: #212529;
+  transition: 0.2s;
+  position: relative;
+  width: 20px;
+  transition-delay: 0.2s;
+}
+.mybtn {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f8f9fa;
+  color: #212529;
+  font-size: 16px;
+  padding: 12px 40px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.imgcontainer .btn:hover {
+  background-color: white;
+}
+
+.img {
+  width: 100%;
+  /* height: 700px; */
+}
+
+@media (max-width: 767px) {
+  .img {
+    margin-top: 7%;
     width: 100%;
-  }
-
-  button:hover p::before {
-    width: 100%;
-  }
-
-  button:hover svg {
-    transform: translateX(15px);
-  }
-
-  button svg {
-    color: #212529;
-    transition: 0.2s;
-    position: relative;
-    width: 20px;
-    transition-delay: 0.2s;
+    height: 330px;
   }
   .mybtn {
     position: absolute;
-    top: 350px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #f8f9fa;
     color: #212529;
-    font-size: 16px;
-    padding: 12px 40px;
+    font-size: 12px;
+    padding: 0px 13px;
+    height: 50px;
     border: none;
-    cursor: pointer;
     text-align: center;
   }
-
-  .imgcontainer .btn:hover {
-    background-color: white;
+  button p {
+    font-size: 11px;
   }
+}
 
+@media (min-width: 769px) {
+  .imgcontainer .mybtn {
+    top: 50%;
+  }
   .img {
-    width: 100%; 
-    height: 700px; 
+    width: 100%;
   }
+}
 
-  @media (max-width: 768px) 
-  {
-    .img {
-      width: 100%; 
-      height: 330px; 
-    }
-    .mybtn {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      background-color: #f8f9fa;
-      color: #212529;
-      font-size: 12px;
-      padding: 0px 13px;
-      height: 50px;
-      border: none;
-      text-align: center;
-    }
-    button p{
-      font-size: 11px;
-    }
+@media (min-width: 820px) {
+  .img {
+    width: 100%;
   }
-
-  @media (min-width: 769px) 
-  {
-      .imgcontainer .mybtn {
-        top: 50%;
-      }
-      .img{
-      width:100%;
-      }
-    }
-
-  @media (min-width: 820px) 
-  {
-    .img
-    {
-      width:100%;
-    }
-  }
+}

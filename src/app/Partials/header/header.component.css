@@ -1,7 +1,28 @@
-.fixed-top{
-  background: #DEE2E6;
+.fixed-top {
+  background: #dee2e6;
 }
 
-.links:hover{
-  color:  #101214;
+.links:hover {
+  color: #101214;
+}
+.nav-item {
+  display: inline-block;
+  list-style: none;
+  /* padding: 0 10px; */
+  /* margin: 0 20px; */
+  cursor: pointer;
+  position: relative;
+}
+.nav-item:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #101214;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  transition: 0.5s;
+}
+.nav-item:hover::after {
+  width: 100%;
 }
