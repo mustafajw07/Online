@@ -126,10 +126,18 @@ hr {
 
 .address {
   margin-bottom: 15px;
+  visibility: visible;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .contact {
   margin-top: 15px;
+  visibility: visible;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 /* From uiverse.io */
@@ -158,6 +166,25 @@ button:hover {
   margin-left: 10px;
   line-height: 1.5;
 }
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+@keyframes  fadeInUp{
+0% {
+      opacity: 0;
+      transform: translate3d(0, 30px, 0);
+  }
+  100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+  }
+} 
 
 @media (max-width: 768px) {
   #row {
