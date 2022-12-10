@@ -1,42 +1,49 @@
 [
   {
-    "id": 1,
-    "title": "iPhone 9",
-    "description": "An apple mobile which is nothing like apple",
-    "price": 549,
+    "id": 22,
+    "title": "K10 Wireless Mechanical Keyboard",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
     "brand": "Keychron",
+    "cid": 4,
     "images": []
-  },
+  }
+  ,
   {
-    "id": 2,
-    "title": "iPhone 10",
-    "description": "An apple mobile which is nothing like apple",
-    "price": 549,
+    "id": 23,
+    "title": "K10 Wireless Mechanical Keyboard",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
     "brand": "Keychron",
+    "cid": 4,
     "images": []
-  },
+  }
+  ,
   {
-    "id": 3,
-    "title": "iPhone 11",
-    "description": "An apple mobile which is nothing like apple",
-    "price": 549,
+    "id": 24,
+    "title": "K10 Wireless Mechanical Keyboard",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
     "brand": "Keychron",
+    "cid": 4,
     "images": []
-  },
+  }
+  ,
   {
-    "id": 4,
-    "title": "iPhone 12",
-    "description": "An apple mobile which is nothing like apple",
-    "price": 549,
+    "id": 25,
+    "title": "Q2 QMK Custom Mechanical Keyboard",
+    "description": "",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
     "brand": "Keychron",
-    "images": []
-  },
-  {
-    "id": 5,
-    "title": "iPhone 13",
-    "description": "An apple mobile which is nothing like apple",
-    "price": 549,
-    "brand": "Keychron",
+    "cid": 4,
     "images": []
   }
 ]

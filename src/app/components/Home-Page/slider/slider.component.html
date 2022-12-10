@@ -3,16 +3,26 @@
     <div class="row">
       <div class="col-md-12">
         <h2>Trending <b>Products</b></h2>
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="0" data-bs-ride="true">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-interval="0"
+          data-bs-ride="true"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
-                <div class="col-sm-6 col-lg-3" *ngFor="let product of productListActive">
+                <div
+                  class="col-sm-6 col-lg-3"
+                  *ngFor="let product of productListActive"
+                >
                   <div class="thumb-wrapper">
                     <div class="img-box">
                       <img
                         src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662655662/Croma%20Assets/Communication/Mobiles/Images/261979_oq7vjv.png/mxw_640,f_auto  "
-                        class="img-fluid" alt="{{ product.title }}" />
+                        class="img-fluid"
+                        alt="{{ product.title }}"
+                      />
                       <!-- <img src={{product.image}} class="img-fluid" alt={{product.title}} /> -->
                     </div>
                     <div class="thumb-content">
@@ -29,12 +39,17 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm-6 col-lg-3" *ngFor="let product of productListInActive">
+                <div
+                  class="col-sm-6 col-lg-3"
+                  *ngFor="let product of productListInActive"
+                >
                   <div class="thumb-wrapper">
                     <div class="img-box">
                       <img
                         src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662655662/Croma%20Assets/Communication/Mobiles/Images/261979_oq7vjv.png/mxw_640,f_auto"
-                        class="img-fluid" alt="{{ product.title }}" />
+                        class="img-fluid"
+                        alt="{{ product.title }}"
+                      />
                     </div>
                     <div class="thumb-content">
                       <div class="title">
@@ -49,13 +64,21 @@
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -66,8 +89,18 @@
   <div class="container">
     <button class="mycardbtn my-3" (click)="navigate()">
       <p class="para">View all products</p>
-      <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
-        <path d="M14 5l7 7m0 0l-7 7m7-7H3" strokeLinejoin="round" strokeLinecap="round"></path>
+      <svg
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 5l7 7m0 0l-7 7m7-7H3"
+          strokeLinejoin="round"
+          strokeLinecap="round"
+        ></path>
       </svg>
     </button>
   </div>

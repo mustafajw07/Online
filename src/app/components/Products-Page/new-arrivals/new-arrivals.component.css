@@ -1,80 +1,101 @@
-.product-grid .product-image {
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
+.product-grid {
+  display: block;
+  animation-name: moveInRight;
+  animation-duration: 4s;
 }
-.new-arrivals{
-    margin-bottom: 30px;
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.product-grid .product-image {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.new-arrivals {
+  margin-bottom: 30px;
 }
 .heading {
-    font-weight: 700;
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid #000; 
-    line-height: 0.1em;
-    margin: 10px 0 40px; 
- } 
- 
- .heading span { 
-     background:#F8F9FA; 
-     padding:0 10px; 
- }
-a{
-    color: inherit;
-    text-decoration: none;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 40px;
+}
+
+.heading span {
+  background: #f8f9fa;
+  padding: 0 10px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .product-grid .product-image a.image {
-    display: block;
+  display: block;
 }
 
 .product-grid .product-image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .product-grid .add-to-cart {
-    background: #212529;
-    color: #DEE2E6;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    padding: 10px 26px;
-    position: absolute;
-    left: 0;
-    bottom: -60px;
-    transition: all 0.3s ease 0s;
+  background: #212529;
+  color: #dee2e6;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  padding: 10px 26px;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  transition: all 0.3s ease 0s;
 }
 
 .product-grid:hover .add-to-cart {
-    bottom: 0;
+  bottom: 0;
 }
 
 .product-grid .product-content {
-    background: #fff;
-    padding: 15px;
-    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1) inset;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1) inset;
 }
 
 .product-grid .title {
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0 0 7px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 7px;
 }
 
 .product-grid .price {
-    color: #212529;
-    font-size: 14px;
-    font-weight: 600;
+  color: #212529;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 990px) {
-    .product-grid {
-        margin-bottom: 30px;
-    }
-    hr{
+  .product-grid {
+    margin-bottom: 30px;
+  }
+  hr {
     margin: 15px 100px 30px 100px;
-    }
+  }
 }

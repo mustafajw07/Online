@@ -8,7 +8,7 @@
 }
 
 .heading span {
-  background: #F8F9FA;
+  background: #f8f9fa;
   padding: 0 10px;
 }
 
@@ -66,6 +66,9 @@
   filter: brightness(40%);
   transition: 579ms;
   transition-timing-function: cubic-bezier(0, 0, 0.44, 1.18);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 h5 {
@@ -75,7 +78,6 @@ h5 {
   font-size: 18px;
 }
 
-
 @media (max-width: 768px) {
   .view-products {
     width: 200px;
@@ -83,7 +85,7 @@ h5 {
   }
 }
 
-@media (min-width:992px) and (max-width:1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .mycard {
     width: 215px;
     height: 360px;

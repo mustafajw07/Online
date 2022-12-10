@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 
 @Component({
@@ -9,41 +10,23 @@ import { ApiService } from 'src/app/services/api.service';
 export class RecommendProductsComponent implements OnInit {
   @Input() cid! : number;
   productList:any = [];
-  constructor(private api: ApiService) { }
+  constructor(private api: ApiService , private router: Router) { }
 
   ngOnInit(): void {
-    if(this.cid == 1){
-      this.api.getAllAppleProducts().subscribe((res:any) => {
-        for (let index = 0; index < 4; index++) {
-          let x = Math.floor((Math.random() * res.length-1) + 1);
-          this.productList.push(res[x])
-        }
-      });
-    }
-    if(this.cid == 2){
-      this.api.getAllBOProducts().subscribe((res:any) => {
-        for (let index = 0; index < 4; index++) {
-          let x = Math.floor((Math.random() * res.length-1) + 1);
-          this.productList.push(res[x])
-        }
-      });
-    }
-    if(this.cid == 3){
-      this.api.getAllRollingSquareProducts().subscribe((res:any) => {
-        for (let index = 0; index < 4; index++) {
-          let x = Math.floor((Math.random() * res.length-1) + 1);
-          this.productList.push(res[x])
-        }
-      });
-    }
-    if(this.cid == 4){
-      this.api.getAllKeychronProducts().subscribe((res:any) => {
-        for (let index = 0; index < 4; index++) {
-          let x = Math.floor((Math.random() * res.length-1) + 1);
-          this.productList.push(res[x])
-        }
-      });
-    }
+    this.getProducts();
+  }
+
+  getProducts(){
+    this.api.getAllProducts().subscribe((res:any) => {
+      for (let index = 0; index < 4; index++) {
+        let x = Math.floor((Math.random() * res.length-1) + 1);
+        this.productList.push(res[x])
+      }
+    });
+  }
+
+  navigate(cid :any , id :any){
+    this.router.navigate([`products/${cid}/${id}`])
   }
 
 }

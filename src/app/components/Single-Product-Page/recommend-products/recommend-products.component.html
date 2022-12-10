@@ -9,10 +9,7 @@
         />
         <p class="text-dark" style="font-weight: bolder">{{ product.brand }}</p>
         <p class="text-dark" style="font-weight: normal">{{ product.title }}</p>
-        <p class="text-dark" style="font-weight: normal">
-          Price {{ product.price }} /-
-        </p>
-        <button>View Product</button>
+        <button (click)="navigate(product.cid , product.id)">View Product</button>
       </div>
     </div>
   </div>

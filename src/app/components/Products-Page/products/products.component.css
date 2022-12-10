@@ -20,6 +20,7 @@
 }
 .price {
   padding-left: 20px;
+  margin-top: 50px;
 }
 .heading {
   text-align: center;
@@ -47,6 +48,7 @@
     /* justify-content: center; */
     margin-left: 14%;
   }
+
   .headtxt,
   .star {
     display: flex;
@@ -56,6 +58,9 @@
 
   .btncss {
     font-size: 18px;
+  }
+  .price {
+    margin-right: 68px !important;
   }
 }
 @media (max-width: 992px) {
