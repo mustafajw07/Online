@@ -1,16 +1,16 @@
 <section class="container new-arrivals">
-    <h3 class="heading"><span>Just Arrived</span></h3>
-    <div class="row">
-        <div class="col-md-3 col-sm-6" *ngFor="let product of productsList">
-            <div class="product-grid">
-                <div class="product-image">
-                        <img src="{{product.image}}">
-                    <a routerLink="" class="add-to-cart">View Product</a>
-                </div>
-                <div class="product-content">
-                    <h3 class="title">{{product.title}}</h3>
-                </div>
-            </div>
+  <h2 class="heading animated bounceInDown"><span>Just Arrived</span></h2>
+  <div class="row">
+    <div class="col-md-3 col-sm-6" *ngFor="let product of productsList">
+      <div class="product-grid">
+        <div class="product-image">
+          <img src="{{ product.image }}" />
+          <a routerLink="" class="add-to-cart">View Product</a>
         </div>
+        <div class="product-content">
+          <h3 class="title">{{ product.title }}</h3>
+        </div>
+      </div>
     </div>
+  </div>
 </section>

@@ -1,4 +1,4 @@
-<h3 class="heading"><span>Recommend Products</span></h3>
+<h3 class="heading animated zoomIn"><span>Recommend Products</span></h3>
 <section class="container">
   <div id="row">
     <div class="product" *ngFor="let product of productList">
@@ -9,7 +9,9 @@
         />
         <p class="text-dark" style="font-weight: bolder">{{ product.brand }}</p>
         <p class="text-dark" style="font-weight: normal">{{ product.title }}</p>
-        <button (click)="navigate(product.cid , product.id)">View Product</button>
+        <button (click)="navigate(product.cid, product.id)">
+          View Product
+        </button>
       </div>
     </div>
   </div>
