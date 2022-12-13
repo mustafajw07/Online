@@ -12,7 +12,7 @@ export class SingleProductComponent implements OnInit {
   cid: any;
   pid: any;
   product:any;
-  
+
   constructor(private route: ActivatedRoute,
               private router: Router,
               private api: ApiService) { }
@@ -29,7 +29,7 @@ export class SingleProductComponent implements OnInit {
   getProductById(){
     if(this.cid == 1){
       this.api.getAllAppleProducts().subscribe((res:any) => {
-        this.product = res.filter((p: any) => p.id == this.pid )
+        this.product = res.filter((p: any) => p.id == this.pid );
       });
     }
     if(this.cid == 2){
