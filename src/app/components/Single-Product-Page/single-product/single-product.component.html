@@ -2,31 +2,49 @@
   <div class="container" *ngFor="let product of product">
     <div class="row">
       <div class="col-lg-5">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active" style="margin-top: 17%" id="zoom">
               <img
-                src={{product.images[0]}}
-                class="d-block w-100" alt="..." />
+                src="{{ product.images[0] }}"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
             <div class="carousel-item" style="margin-top: 17%" id="zoom">
               <img
-                src={{product.images[1]}}
-                class="d-block w-100" alt="..." />
+                src="{{ product.images[1] }}"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
             <div class="carousel-item" style="margin-top: 17%" id="zoom">
               <img
-                src={{product.images[2]}}
-                class="d-block w-100" alt="..." />
+                src="{{ product.images[2] }}"
+                class="d-block w-100"
+                alt="..."
+              />
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -38,14 +56,14 @@
             <div class="about">
               <span class="text-black-50" style="font-size: 25px">{{
                 product.title
-                }}</span>
+              }}</span>
               <h2 class="font-weight-bold">
                 {{ product.brand }}
               </h2>
             </div>
 
             <hr />
-            <div class="product-description" >
+            <div class="product-description">
               <div class="mt-2">
                 <h5 class="fw-bold">Description:</h5>
                 <p>
@@ -56,12 +74,31 @@
                   tempore!
                 </p>
                 <h6>Specification:</h6>
-                <span>
+                <!-- <span class="color">
                   <i class="fa-solid fa-arrow-right-long"></i> Color :
-                  {{ product.color }} <br /></span>
+                  {{ product.color }} <br />
+                </span> -->
+                <div class="radio-box">
+                  <label class="color--blue mx-1">
+                    <input type="radio" checked="checked" name="radio" />
+                  </label>
+                  <label class="color--midnight mx-1">
+                    <input type="radio" name="radio" />
+                  </label>
+                  <label class="color--purple mx-1">
+                    <input type="radio" name="radio" />
+                  </label>
+                  <label class="color--red mx-1">
+                    <input type="radio" name="radio" />
+                  </label>
+                  <label class="color--starlight mx-1">
+                    <input type="radio" name="radio" />
+                  </label>
+                </div>
                 <span>
                   <i class="fa-solid fa-arrow-right-long"></i> Lorem ipsum dolor
-                  sit amet. <br /></span>
+                  sit amet. <br
+                /></span>
               </div>
             </div>
           </div>
