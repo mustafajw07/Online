@@ -52,9 +52,9 @@
       </div>
       <div class="col-lg-7 animated bounceInDown">
         <div class="container" style="margin-top: 15%">
-          <div class="card px-5 mb-5" style="padding: 5% 0">
+          <div class="card px-5 mb-5 backdrop" style="padding: 5% 0">
             <div class="about">
-              <span class="text-black-50" style="font-size: 25px">{{
+              <span class="text-black-100" style="font-size: 25px">{{
                 product.title
               }}</span>
               <h2 class="font-weight-bold">
@@ -73,32 +73,13 @@
                   aperiam quibusdam illum nostrum ea dolorum voluptatem eaque
                   tempore!
                 </p>
-                <h6>Specification:</h6>
-                <!-- <span class="color">
-                  <i class="fa-solid fa-arrow-right-long"></i> Color :
-                  {{ product.color }} <br />
-                </span> -->
-                <div class="radio-box">
-                  <label class="color--blue mx-1">
+                <h6>Colors Available:</h6>
+                <div class="radio-box" *ngFor="let color of product.color">
+                  <label [ngClass]="getColor(color)">
                     <input type="radio" checked="checked" name="radio" />
                   </label>
-                  <label class="color--midnight mx-1">
-                    <input type="radio" name="radio" />
-                  </label>
-                  <label class="color--purple mx-1">
-                    <input type="radio" name="radio" />
-                  </label>
-                  <label class="color--red mx-1">
-                    <input type="radio" name="radio" />
-                  </label>
-                  <label class="color--starlight mx-1">
-                    <input type="radio" name="radio" />
-                  </label>
                 </div>
-                <span>
-                  <i class="fa-solid fa-arrow-right-long"></i> Lorem ipsum dolor
-                  sit amet. <br
-                /></span>
+                <br>
               </div>
             </div>
           </div>
