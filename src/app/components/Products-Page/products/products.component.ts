@@ -44,6 +44,35 @@ export class ProductsComponent implements OnChanges {
     }
   }
 
+  getColor(color: string): any {
+    switch (color) {
+      case 'Blue':
+        return 'blue';
+      case 'Midnight':
+        return 'midnight';
+      case 'Purple':
+        return 'purple';
+      case 'Red':
+        return 'red';
+      case 'StarLight':
+        return 'starlight';
+      case 'Deep Purple':
+        return 'purple';
+      case 'Gold':
+        return 'gold';
+      case 'Silver':
+        return 'silver';
+      case 'Space Grey':
+        return 'grey';
+      case 'Black':
+        return 'midnight';
+      case 'Olive Green':
+        return 'green';
+      case 'White':
+        return 'starlight';
+    }
+  }
+
   navigate(cid:any,id :any){
     this.router.navigate([`products/${cid}/${id}`])
   }
