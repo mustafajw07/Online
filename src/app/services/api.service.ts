@@ -56,7 +56,7 @@ export class ApiService {
 
   // Rolling Square Products Get
   getAllRollingSquareProducts(){
-    return this.http.get('../../assets/json/rollingSquare.json');
+    return this.http.get('../../assets/json/rollingsquare.json');
   }
   
 

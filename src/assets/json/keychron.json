@@ -1,6 +1,6 @@
 [
   {
-    "id": 22,
+    "id": 12,
     "title": "K10 Wireless Mechanical Keyboard",
     "description": "",
     "color": "",
@@ -8,35 +8,50 @@
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
-    "images": []
-  }
-  ,
+    "images": [
+      "../../assets/images/KeyChron/Keychron K10/keychronk10wirelessmechanicalkeyboard5-1648624270735.jpg",
+      "../../assets/images/KeyChron/Keychron K10/keychronk10wirelessmechanicalkeyboard6-1648624302280.jpg",
+      "../../assets/images/KeyChron/Keychron K10/keychronkeyboardgaterongpromechanicalswitchfeatures-1640664080467.jpg",
+      "../../assets/images/KeyChron/Keychron K10/pf-12bf24c4--k10layout-Edited.jpg",
+      "../../assets/images/KeyChron/Keychron K10/pf-37f77395--KeychronK4version2hotswappablewirelessmechanicalkeyboard96percentlayoutforMacWindowsiOSGateronswitchredbluebrownwithtypeCRGBwhitebacklight-Edited.jpg",
+      "../../assets/images/KeyChron/Keychron K10/pf-3f58f02d--keychronk101-Edited.jpg"
+    ]
+  },
   {
-    "id": 23,
-    "title": "K10 Wireless Mechanical Keyboard",
+    "id": 13,
+    "title": "K6 Wireless Mechanical Keyboard",
     "description": "",
     "color": "",
     "size": "",
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
-    "images": []
-  }
-  ,
+    "images": [
+      "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard1-1646815800020.jpg",
+      "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard3-1646815621027.jpg",
+      "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard4-1646815621045.jpg",
+      "../../assets/images/KeyChron/Keychron K6/pf-48686fa0--k6.jpg",
+      "../../assets/images/KeyChron/Keychron K6/pf-8db2581a--WechatIMG104-Edited.jpg",
+      "../../assets/images/KeyChron/Keychron K6/pf-963241cb--Keychron-K6-Battery.jpeg"
+    ]
+  },
   {
-    "id": 24,
-    "title": "K10 Wireless Mechanical Keyboard",
+    "id": 14,
+    "title": "K8 Wireless Mechanical Keyboard",
     "description": "",
     "color": "",
     "size": "",
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
-    "images": []
-  }
-  ,
+    "images": [
+      "../../assets/images/KeyChron/Keychron K8/keychronk2wirelessmechanicalkeyboard6-1648624002508.jpg",
+      "../../assets/images/KeyChron/Keychron K8/keychronk8wirelessmechanicalkeyboard1-1646210675142.jpg",
+      "../../assets/images/KeyChron/Keychron K8/keychronk8wirelessmechanicalkeyboard4-1646210775691.jpg"
+    ]
+  },
   {
-    "id": 25,
+    "id": 15,
     "title": "Q2 QMK Custom Mechanical Keyboard",
     "description": "",
     "color": "",
@@ -44,6 +59,14 @@
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
-    "images": []
+    "images": [
+      "../../assets/images/KeyChron/Keychron Q2/keychron-q2-65-custom-mechanical-keyboard-1640601375561.jpg",
+      "../../assets/images/KeyChron/Keychron Q2/keychron-q2-65-custom-mechanical-keyboard-barebone-version-knob-version-1640660618936.jpeg",
+      "../../assets/images/KeyChron/Keychron Q2/keychron-q2-65-custom-mechanical-keyboard-knob-version-1640600481540.jpeg",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq265custommechanicalkeyboardmacwindowsoperatingsystem--edited-1640770781841.jpg",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardblue2-1638160245416.png",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardhero1-1641452478397.jpg",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardkeycaps1638268106218jpegedited--edited-1640657554959.jpg"
+    ]
   }
 ]

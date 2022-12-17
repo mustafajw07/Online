@@ -1,4 +1,4 @@
-<h3 class="heading">{{ Title }} Products</h3>
+<h2 class="heading animated rollIn">{{ Title }} Products</h2>
 <div class="container">
   <div
     class="col-lg-12 my-5"
@@ -22,6 +22,12 @@
         <p class="txt">
           {{ products.description }}
         </p>
+        <h6>Available Colors :- </h6>
+        <div class="radio-box"  *ngFor="let color of products.color">
+          <label [ngClass]="getColor(color)">
+            <input type="radio" checked="checked" name="radio" />
+          </label>
+        </div>
       </div>
       <div class="col-lg-2 col-sm-12 col-md-1 justify-content-center price">
         <div class="mx-4 star">

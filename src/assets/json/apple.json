@@ -1,124 +1,126 @@
 [
-    {
-        "id": 1,
-        "title": "Iphone 14" ,
-        "description": "",
-        "color": "",
-        "size": "",
-        "price": "AED 4199 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },
-      {
-        "id": 2,
-        "title": "Iphone 14 Pro",
-        "description": "",
-        "color": "",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 3,
-        "title": "Iphone 14 Plus",
-        "description": "",
-        "color": "",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 4,
-        "title": "Iphone 14 Pro Max",
-        "description": "",
-        "color": "",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 5,
-        "title": "MacBook Air M2",
-        "description": "",
-        "color": "Midnight",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 6,
-        "title": "MacBook Air M2",
-        "description": "",
-        "color": "Silver",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 7,
-        "title": "MacBook Air M2",
-        "description": "",
-        "color": "Space Grey",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 8,
-        "title": "MacBook Air M2",
-        "description": "",
-        "color": "Star Light",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 9,
-        "title": "MacBook Pro",
-        "description": "",
-        "color": "Silver",
-        "size": "14-inch",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 10,
-        "title": "MacBook Pro",
-        "description": "",
-        "color": "Silver",
-        "size": "16-inch",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 11,
-        "title": "MacBook Pro",
-        "description": "",
-        "color": "Silver",
-        "size": "13-inch",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      },{
-        "id": 12,
-        "title": "MacBook Pro",
-        "description": "",
-        "color": "Space Grey",
-        "size": "13-inch",
-        "price": "54999 /-",
-        "brand": "Apple",
-        "cid": 1,
-        "images": []
-      }
+  {
+    "id": 1,
+    "title": "Iphone 14",
+    "description": "",
+    "color": [
+      "Blue" , 
+      "Midnight" , 
+      "Purple" , 
+      "Red" , 
+      "StarLight"
+    ],
+    "size": "",
+    "price": "AED 4199 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 2,
+    "title": "Iphone 14 Pro",
+    "description": "",
+    "color": [
+      "Deep Purple",
+      "Gold",
+      "Silver",
+      "Space Black"
+    ],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 3,
+    "title": "Iphone 14 Plus",
+    "description": [
+      "Blue",
+      "Midnight",
+      "Purple",
+      "Red",
+      "StarLight"
+    ],
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 4,
+    "title": "Iphone 14 Pro Max",
+    "description": [
+      "Deep Purple",
+      "Gold",
+      "Silver",
+      "Space Black"
+    ],
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 5,
+    "title": "MacBook Air M2",
+    "description": "",
+    "color": [
+      "Midnight",
+      "Silver",
+      "Space Grey",
+      "StarLight"
+    ],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 6,
+    "title": "MacBook Pro",
+    "description": "",
+    "color": [
+      "Silver",
+      "Space Grey"
+    ],
+    "size": "14-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 7,
+    "title": "MacBook Pro",
+    "description": "",
+    "color": [
+      "Silver",
+      "Space Grey"
+    ],
+    "size": "16-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  },
+  {
+    "id": 8,
+    "title": "MacPro M2",
+    "description": "",
+    "color": [
+      "Silver",
+      "Space Grey"
+    ],
+    "size": "13-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": []
+  }
 ]

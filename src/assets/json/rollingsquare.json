@@ -1,100 +1,42 @@
 [
-    {
-        "id": 13,
-        "title": "InChargeX",
-        "description": "",
-        "color": "Black",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      }
-      ,{
-        "id": 14,
-        "title": "InChargeX",
-        "description": "",
-        "color": "Blue",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      }
-      ,{
-        "id": 15,
-        "title": "InChargeX",
-        "description": "",
-        "color": "Gold",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      }
-      ,{
-        "id": 16,
-        "title": "TUA",
-        "description": "",
-        "color": "Black",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      }
-      ,{
-        "id": 17,
-        "title": "TUA",
-        "description": "",
-        "color": "Olive Green",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      }
-      ,{
-        "id": 18,
-        "title": "TUA",
-        "description": "",
-        "color": "White",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      },{
-        "id": 19,
-        "title": "EDGE",
-        "description": "",
-        "color": "White",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      },
-      {
-        "id": 20,
-        "title": "EDGE",
-        "description": "",
-        "color": "Grey",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      },
-      {
-        "id": 21,
-        "title": "EDGE",
-        "description": "",
-        "color": "Red",
-        "size": "",
-        "price": "54999 /-",
-        "brand": "Rolling Square",
-        "cid": 3,
-        "images": []
-      }
+  {
+    "id": 9,
+    "title": "InChargeX",
+    "description": "",
+    "color": ["Black" , "Blue" , "Gold"],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": [
+      "../../assets/images/RollingSquare/InChargeX-Black Colour/lifestyle3_a5503d2b-0eb3-4d31-b2f7-9a7582a29d9a.png",
+      "../../assets/images/RollingSquare/InChargeX-Blue Colour/01_dc01cf8f-b451-42c4-af28-e99cf5795c43_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_compact.png"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "TUA",
+    "description": "",
+    "color": ["Black" , "Olive Green" , "White"],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  },{
+    "id": 11,
+    "title": "EDGE",
+    "description": "",
+    "color": ["White" , "Grey" , "Red"],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": [
+      "../../assets/images/RollingSquare/EDGE-Carra White/renderkitcarrarawhite.png",
+      "../../assets/images/RollingSquare/EDGE-Grey/EDGEFullKitBasaltGrey-min.png",
+      "../../assets/images/RollingSquare/EDGE-Red/features2-min_e8daec3c-82bb-4412-a394-61c017dfa4e2.png"
+    ]
+  }
 ]
