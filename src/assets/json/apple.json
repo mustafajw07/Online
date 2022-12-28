@@ -4,10 +4,10 @@
     "title": "Iphone 14",
     "description": "",
     "color": [
-      "Blue" , 
-      "Midnight" , 
-      "Purple" , 
-      "Red" , 
+      "Blue",
+      "Midnight",
+      "Purple",
+      "Red",
       "StarLight"
     ],
     "size": "",
@@ -36,13 +36,15 @@
     "id": 3,
     "title": "Iphone 14 Plus",
     "description": [
+      ""
+    ],
+    "color": [
       "Blue",
       "Midnight",
       "Purple",
       "Red",
       "StarLight"
     ],
-    "color": "",
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
@@ -53,12 +55,14 @@
     "id": 4,
     "title": "Iphone 14 Pro Max",
     "description": [
+      ""
+    ],
+    "color": [
       "Deep Purple",
       "Gold",
       "Silver",
       "Space Black"
     ],
-    "color": "",
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
