@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Iphone 14",
-    "description": "",
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Blue",
       "Midnight",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "title": "Iphone 14 Pro",
-    "description": "",
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Deep Purple",
       "Gold",
@@ -35,9 +35,7 @@
   {
     "id": 3,
     "title": "Iphone 14 Plus",
-    "description": [
-      ""
-    ],
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Blue",
       "Midnight",
@@ -54,9 +52,7 @@
   {
     "id": 4,
     "title": "Iphone 14 Pro Max",
-    "description": [
-      ""
-    ],
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Deep Purple",
       "Gold",
