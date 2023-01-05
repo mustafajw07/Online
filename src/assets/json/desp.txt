@@ -23,3 +23,4 @@ The K10 Wireless Mechanical Keyboard has included keycaps for both Windows and M
 kq2:-
 The Q2 is a fully customizable mechanical keyboard with a compact layout that pushes your typing experience to the next level. With a 65% layout, full metal body, and double-gasket design, the Q2 is designed for a personalized experience and premium typing comfort.
 
+-----------------------------------------------------------------------------------------------------------------------------------
