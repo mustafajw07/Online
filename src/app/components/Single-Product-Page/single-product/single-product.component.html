@@ -67,19 +67,17 @@
               <div class="mt-2">
                 <h5 class="fw-bold">Description:</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellat pariatur maiores incidunt amet vero dolor consectetur
-                  nemo id repellendus aspernatur nulla earum voluptate, cum est
-                  aperiam quibusdam illum nostrum ea dolorum voluptatem eaque
-                  tempore!
+                  {{product.description}}
                 </p>
-                <h6>Colors Available:</h6>
+                <div *ngIf="product.color">
+                  <h6>Colors Available:</h6>
                 <div class="radio-box" *ngFor="let color of product.color">
                   <label [ngClass]="getColor(color)">
                     <input type="radio" checked="checked" name="radio" />
                   </label>
                 </div>
-                <br>
+                <br>  
+                </div>
               </div>
             </div>
           </div>

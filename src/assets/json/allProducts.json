@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Iphone 14",
-    "description": "",
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Blue",
       "Midnight",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "title": "Iphone 14 Pro",
-    "description": "",
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Deep Purple",
       "Gold",
@@ -35,7 +35,7 @@
   {
     "id": 3,
     "title": "Iphone 14 Plus",
-    "description":"" ,
+    "description":"The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone." ,
     "color": [
       "Blue",
       "Midnight",
@@ -52,7 +52,7 @@
   {
     "id": 4,
     "title": "Iphone 14 Pro Max",
-    "description": "",
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
     "color": [
       "Deep Purple",
       "Gold",
@@ -126,13 +126,12 @@
   {
     "id": 9,
     "title": "InChargeX",
-    "description": "",
+    "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source. It allows Data Transfer and Ultra-Fast Charging up to 100W and Apple's Fast Charging up to 18W.Whether you need to fast charge an iPhone or Android, iPad, laptop, or any other portable device, the multi charger inCharge® X has got you covered.",
     "color": [
       "Black",
       "Blue",
       "Gold"
     ],
-    "size": "",
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -141,13 +140,12 @@
   {
     "id": 10,
     "title": "TUA",
-    "description": "",
+    "description": "TAU is the best 3-in-1 power bank, it fits the iPhone (Apple), Micro USB, and USB-C. It’s the smallest power bank in the world, so you can attach it to your key chain, and comfortably use it in your daily life. It’s the best portable power bank and alternative to your regular, heavy battery charger.TAU® is featured with USB-C, Lightning, and Micro USB cables, and is compatible with virtually every portable device.",
     "color": [
       "Black",
       "Olive Green",
       "White"
     ],
-    "size": "",
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -156,13 +154,12 @@
   {
     "id": 11,
     "title": "EDGE",
-    "description": "",
+    "description": "EDGE Kit consists of a phone and tablet mount for your laptop that allows the convenient use of dual screens, efficient study, and work. is the best laptop and tablet accessory that helps to boost productivity while working on the go. It offers hands-free phone accessibility, to extend your screen and always have the needed information at eye level, as well as charging your phone and lighting up your Zoom meetings.",
     "color": [
       "White",
       "Grey",
       "Red"
     ],
-    "size": "",
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -171,9 +168,8 @@
   {
     "id": 12,
     "title": "K10 Wireless Mechanical Keyboard",
-    "description": "",
+    "description": "The K10 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems. Gateron (Hot-swappable) version comes with Gateron switches pre-installed.Engineered to maximize your productivity with most popular full size layout with number pad. The hot-swappable option on Gateron G Pro Mechanical switches offers the freedom to easily personalize your typing experience without soldering.",
     "color": "",
-    "size": "",
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
@@ -189,9 +185,8 @@
   {
     "id": 13,
     "title": "K6 Wireless Mechanical Keyboard",
-    "description": "",
+    "description": "The K6 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems. Hot-swappable version comes with Gateron switch pre-installed.An innovative 65% compact wireless mechanical keyboard crafted to maximize your workspace with an ergonomic design, while retaining all necessary multimedia and function keys. The hot-swappable version offers the freedom to easily personalize your typing experience without soldering.",
     "color": "",
-    "size": "",
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
@@ -207,9 +202,8 @@
   {
     "id": 14,
     "title": "K8 Wireless Mechanical Keyboard",
-    "description": "",
+    "description": "The K8 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems. Gateron (Hot-swappable) version comes with Gateron switch pre-installed.Engineered to maximize your productivity with most popular TKL layout. The hot-swappable option on Optical and Mechanical switches offers the freedom to easily personalize your typing experience without soldering.",
     "color": "",
-    "size": "",
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
@@ -222,9 +216,8 @@
   {
     "id": 15,
     "title": "Q2 QMK Custom Mechanical Keyboard",
-    "description": "",
+    "description": "The Q2 is a fully customizable mechanical keyboard with a compact layout that pushes your typing experience to the next level. With a 65% layout, full metal body, and double-gasket design, the Q2 is designed for a personalized experience and premium typing comfort.",
     "color": "",
-    "size": "",
     "price": "54999 /-",
     "brand": "Keychron",
     "cid": 4,
