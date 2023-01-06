@@ -4,7 +4,7 @@
     <h1>DON'T HESITATE CONTACT US</h1>
     <div id="row">
       <div id="form">
-        <form>
+        <form [formGroup]="contactForm" (submit)="sendEmail($event)">
           <div class="input">
             <input
               type="text"
@@ -12,6 +12,7 @@
               class="name"
               pattern="\d+"
               placeholder="Full Name"
+              formControlName="name"
             />
             <input
               type="text"
@@ -19,6 +20,7 @@
               class="email"
               pattern="\d+"
               placeholder="E-mail Adress"
+              formControlName="email"
             />
           </div>
           <input
@@ -27,6 +29,7 @@
             class="subject"
             pattern="\d+"
             placeholder="Subject"
+            formControlName="subject"
           />
           <textarea
             placeholder="Message"
@@ -34,6 +37,7 @@
             name="message"
             class="text-area"
             pattern="\d+"
+            formControlName="message"
           ></textarea>
           <br />
           <button>Send Message</button>
