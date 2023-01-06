@@ -22,11 +22,13 @@
         <p class="txt">
           {{ products.description }}
         </p>
-        <h6>Available Colors :- </h6>
+        <div *ngIf="products.color">
+          <h6>Available Colors :- </h6>
         <div class="radio-box"  *ngFor="let color of products.color">
           <label [ngClass]="getColor(color)">
             <input type="radio" checked="checked" name="radio" />
           </label>
+        </div>
         </div>
       </div>
       <div class="col-lg-2 col-sm-12 col-md-1 justify-content-center price">
@@ -38,7 +40,7 @@
         </div>
         <button
           type="button"
-          class="btn btntxt btn-dark my-3 mb-2 mx-1 btncss button"
+          class="btn btntxt btn-dark my-3 mb-2 mx-1 btncss"
           (click)="navigate(products.cid, products.id)"
         >
           View Product
