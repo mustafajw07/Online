@@ -3,13 +3,7 @@
     "id": 1,
     "title": "Iphone 14",
     "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
-    "color": [
-      "Blue",
-      "Midnight",
-      "Purple",
-      "Red",
-      "StarLight"
-    ],
+    "color": ["Blue", "Midnight", "Purple", "Red", "StarLight"],
     "size": "",
     "price": "AED 4199 /-",
     "brand": "Apple",
@@ -20,12 +14,7 @@
     "id": 2,
     "title": "Iphone 14 Pro",
     "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
-    "color": [
-      "Deep Purple",
-      "Gold",
-      "Silver",
-      "Space Black"
-    ],
+    "color": ["Deep Purple", "Gold", "Silver", "Space Black"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
@@ -35,14 +24,8 @@
   {
     "id": 3,
     "title": "Iphone 14 Plus",
-    "description":"The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone." ,
-    "color": [
-      "Blue",
-      "Midnight",
-      "Purple",
-      "Red",
-      "StarLight"
-    ],
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
+    "color": ["Blue", "Midnight", "Purple", "Red", "StarLight"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
@@ -53,12 +36,7 @@
     "id": 4,
     "title": "Iphone 14 Pro Max",
     "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
-    "color": [
-      "Deep Purple",
-      "Gold",
-      "Silver",
-      "Space Black"
-    ],
+    "color": ["Deep Purple", "Gold", "Silver", "Space Black"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
@@ -68,13 +46,8 @@
   {
     "id": 5,
     "title": "MacBook Air M2",
-    "description": "",
-    "color": [
-      "Midnight",
-      "Silver",
-      "Space Grey",
-      "StarLight"
-    ],
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
+    "color": ["Midnight", "Silver", "Space Grey", "StarLight"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
@@ -84,11 +57,8 @@
   {
     "id": 6,
     "title": "MacBook Pro",
-    "description": "",
-    "color": [
-      "Silver",
-      "Space Grey"
-    ],
+    "description": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.1 And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.2",
+    "color": ["Silver", "Space Grey"],
     "size": "14-inch",
     "price": "54999 /-",
     "brand": "Apple",
@@ -98,11 +68,8 @@
   {
     "id": 7,
     "title": "MacBook Pro",
-    "description": "",
-    "color": [
-      "Silver",
-      "Space Grey"
-    ],
+    "description": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.1 And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.2",
+    "color": ["Silver", "Space Grey"],
     "size": "16-inch",
     "price": "54999 /-",
     "brand": "Apple",
@@ -112,11 +79,8 @@
   {
     "id": 8,
     "title": "MacPro M2",
-    "description": "",
-    "color": [
-      "Silver",
-      "Space Grey"
-    ],
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
+    "color": ["Silver", "Space Grey"],
     "size": "13-inch",
     "price": "54999 /-",
     "brand": "Apple",
@@ -127,11 +91,7 @@
     "id": 9,
     "title": "InChargeX",
     "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source. It allows Data Transfer and Ultra-Fast Charging up to 100W and Apple's Fast Charging up to 18W.Whether you need to fast charge an iPhone or Android, iPad, laptop, or any other portable device, the multi charger inCharge® X has got you covered.",
-    "color": [
-      "Black",
-      "Blue",
-      "Gold"
-    ],
+    "color": ["Black", "Blue", "Gold"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -141,11 +101,7 @@
     "id": 10,
     "title": "TUA",
     "description": "TAU is the best 3-in-1 power bank, it fits the iPhone (Apple), Micro USB, and USB-C. It’s the smallest power bank in the world, so you can attach it to your key chain, and comfortably use it in your daily life. It’s the best portable power bank and alternative to your regular, heavy battery charger.TAU® is featured with USB-C, Lightning, and Micro USB cables, and is compatible with virtually every portable device.",
-    "color": [
-      "Black",
-      "Olive Green",
-      "White"
-    ],
+    "color": ["Black", "Olive Green", "White"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -155,11 +111,7 @@
     "id": 11,
     "title": "EDGE",
     "description": "EDGE Kit consists of a phone and tablet mount for your laptop that allows the convenient use of dual screens, efficient study, and work. is the best laptop and tablet accessory that helps to boost productivity while working on the go. It offers hands-free phone accessibility, to extend your screen and always have the needed information at eye level, as well as charging your phone and lighting up your Zoom meetings.",
-    "color": [
-      "White",
-      "Grey",
-      "Red"
-    ],
+    "color": ["White", "Grey", "Red"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -230,5 +182,32 @@
       "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardhero1-1641452478397.jpg",
       "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardkeycaps1638268106218jpegedited--edited-1640657554959.jpg"
     ]
+  },
+  {
+    "id": 16,
+    "title": "Beoplay A9",
+    "description": "Beoplay A9's iconic shape is designed to be displayed. From afar, it's a minimal masterpiece. Up close, the details shine. Just like your favourite furniture, it stands apart in any room. And if you prefer it on the wall, it rises to the occasion. Enjoy beauty from every angle, whether you press play or not.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": []
+  },
+  {
+    "id": 17,
+    "title": "Beosound Level",
+    "description": "Coffee tables, work desks, bookshelves – Beosound Level settles right in. Designed to look and sound incredible anywhere, it seamlessly connects to WiFi while being free to move. Long day ahead? 16-hour battery life has you covered. Music in the kitchen? It's splash resistant. Sync it up. Pick it up. And go.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": []
+  },
+  {
+    "id": 18,
+    "title": "Beosound 2",
+    "description": "Beosound 2 delivers stellar and truly powerful sound performance. Applying our Acoustic Lens Technology into the conical speaker body creates a 360-degree sound experience that fills the entire room from anywhere you place the speaker.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": []
   }
 ]
