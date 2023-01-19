@@ -190,7 +190,14 @@
     "brand": "B&O",
     "color": "",
     "cid": 2,
-    "images": []
+    "images": [
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-back-black.webp",
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-front-no-cover-black.webp",
+      "../../assets/images/B&O/Beoplay A9/A9-4th-gen-bronze.png",
+      "../../assets/images/B&O/Beoplay A9/a9_bronze_galleryyyyy.png",
+      "../../assets/images/B&O/Beoplay A9/Lunar Red 1.png",
+      "../../assets/images/B&O/Beoplay A9/Lunar Red 4.png"
+    ]
   },
   {
     "id": 17,
@@ -199,7 +206,14 @@
     "brand": "B&O",
     "color": "",
     "cid": 2,
-    "images": []
+    "images": [
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0018.png",
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0219_copy.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelGoldenOak.png",
+      "../../assets/images/B&O/Beosound Level 1/02_Back_FancyPlug-BeosoundLevelGoldenOak.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelBlackAluminum.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelBlackAluminumm.png"
+    ]
   },
   {
     "id": 18,
@@ -208,6 +222,13 @@
     "brand": "B&O",
     "color": "",
     "cid": 2,
-    "images": []
+    "images": [
+      "../../assets/images/B&O/Besound 2/bs2_bronze1.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-bronze-transparrent-image-1.png",
+      "../../assets/images/B&O/Beosound 2/BS2_Gold_1.png",
+      "../../assets/images/B&O/Besound 2/BS2_Gold_3.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-natural-transparrent-image-1.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-natural-transparrent-image-3.png"
+    ]
   }
 ]
