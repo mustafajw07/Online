@@ -14,7 +14,11 @@
     "price": "AED 4199 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 3.jpeg"
+    ]
   },
   {
     "id": 2,
@@ -30,7 +34,11 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg"
+    ]
   },
   {
     "id": 3,
@@ -47,7 +55,11 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg"
+    ]
   },
   {
     "id": 4,
@@ -63,7 +75,11 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus Max/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus Max/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus Max/Gold 1.jpeg"
+    ]
   },
   {
     "id": 5,
@@ -79,7 +95,11 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus Max/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus Max/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus Max/Gold 1.jpeg"
+    ]
   },
   {
     "id": 6,
