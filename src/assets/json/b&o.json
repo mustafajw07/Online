@@ -1,42 +1,41 @@
 [
-    {
-        "id": 1,
-        "title": "iPhone 9",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 549,
-        "brand": "B&O",
-        "images": []
-    },
-    {
-        "id": 2,
-        "title": "iPhone 10",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 549,
-        "brand": "B&O",
-        "images": []
-    },
-    {
-        "id": 3,
-        "title": "iPhone 11",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 549,
-        "brand": "B&O",
-        "images": []
-    },
-    {
-        "id": 4,
-        "title": "iPhone 12",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 549,
-        "brand": "B&O",
-        "images": []
-    },
-    {
-        "id": 5,
-        "title": "iPhone 13",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 549,
-        "brand": "B&O",
-        "images": []
-    }
+  {
+    "id": 16,
+    "title": "Beoplay A9",
+    "description": "Beoplay A9's iconic shape is designed to be displayed. From afar, it's a minimal masterpiece. Up close, the details shine. Just like your favourite furniture, it stands apart in any room. And if you prefer it on the wall, it rises to the occasion. Enjoy beauty from every angle, whether you press play or not.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-back-black.webp",
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-front-no-cover-black.webp",
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-detail-side-front-black.webp"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Beosound Level",
+    "description": "Coffee tables, work desks, bookshelves – Beosound Level settles right in. Designed to look and sound incredible anywhere, it seamlessly connects to WiFi while being free to move. Long day ahead? 16-hour battery life has you covered. Music in the kitchen? It's splash resistant. Sync it up. Pick it up. And go.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0018.png",
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0219_copy.png",
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0261_Sound_And_Vision_For_Your_Home.png"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Beosound 2",
+    "description": "Beosound 2 delivers stellar and truly powerful sound performance. Applying our Acoustic Lens Technology into the conical speaker body creates a 360-degree sound experience that fills the entire room from anywhere you place the speaker.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Besound 2/bs2_bronze1.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-bronze-transparrent-image-1.png",
+      "../../assets/images/B&O/Besound 2/bs2_bronze1.png"
+    ]
+  }
 ]

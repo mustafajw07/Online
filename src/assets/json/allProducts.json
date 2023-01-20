@@ -3,135 +3,187 @@
     "id": 1,
     "title": "Iphone 14",
     "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
-    "color": [
-      "Blue",
-      "Midnight",
-      "Purple",
-      "Red",
-      "StarLight"
-    ],
+    "color": ["Blue", "Midnight", "Purple", "Red", "StarLight"],
     "size": "",
     "price": "AED 4199 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product RED 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product RED 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product RED 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Purple 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Purple 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Starlight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Starlight 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Starlight 3.jpeg"
+    ]
   },
   {
     "id": 2,
     "title": "Iphone 14 Pro",
     "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
-    "color": [
-      "Deep Purple",
-      "Gold",
-      "Silver",
-      "Space Black"
-    ],
+    "color": ["Deep Purple", "Gold", "Silver", "Space Black"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space Black 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space Black 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space Black 3.jpeg"
+    ]
   },
   {
     "id": 3,
     "title": "Iphone 14 Plus",
-    "description":"The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone." ,
-    "color": [
-      "Blue",
-      "Midnight",
-      "Purple",
-      "Red",
-      "StarLight"
-    ],
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
+    "color": ["Blue", "Midnight", "Purple", "Red", "StarLight"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product RED 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product RED 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product RED 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight 3.jpeg"
+    ]
   },
   {
     "id": 4,
     "title": "Iphone 14 Pro Max",
     "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
-    "color": [
-      "Deep Purple",
-      "Gold",
-      "Silver",
-      "Space Black"
-    ],
+    "color": ["Deep Purple", "Gold", "Silver", "Space Black"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep Purple 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep Purple 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver 3.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space Black 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space Black 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space Black 3.jpeg"
+    ]
   },
   {
     "id": 5,
     "title": "MacBook Air M2",
-    "description": "",
-    "color": [
-      "Midnight",
-      "Silver",
-      "Space Grey",
-      "StarLight"
-    ],
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
+    "color": ["Midnight", "Silver", "Space Grey", "StarLight"],
     "size": "",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery1-20220606.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-gallery2-20220606_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-gallery6-20220606.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery2-20220606_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery6-20220606.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 StarLight/macbook-air-starlight-gallery2-20220606_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 StarLight/macbook-air-starlight-gallery6-20220606.jpeg"
+    ]
   },
   {
     "id": 6,
     "title": "MacBook Pro",
-    "description": "",
-    "color": [
-      "Silver",
-      "Space Grey"
-    ],
+    "description": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.1 And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.2",
+    "color": ["Silver", "Space Grey"],
     "size": "14-inch",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 1.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 2.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 5.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 4.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 1.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 2.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 5.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 4.jpeg"
+    ]
   },
   {
     "id": 7,
     "title": "MacBook Pro",
-    "description": "",
-    "color": [
-      "Silver",
-      "Space Grey"
-    ],
+    "description": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.1 And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.2",
+    "color": ["Silver", "Space Grey"],
     "size": "16-inch",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 1.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 2.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 4.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 5.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 1.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 2.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 4.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 5.jpeg"
+    ]
   },
   {
     "id": 8,
     "title": "MacPro M2",
-    "description": "",
-    "color": [
-      "Silver",
-      "Space Grey"
-    ],
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
+    "color": ["Silver", "Space Grey"],
     "size": "13-inch",
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery1-202206.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery2-202206_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery6-202206.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery1-202206.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery2-202206_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery6-202206.jpeg"
+    ]
   },
   {
     "id": 9,
     "title": "InChargeX",
     "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source. It allows Data Transfer and Ultra-Fast Charging up to 100W and Apple's Fast Charging up to 18W.Whether you need to fast charge an iPhone or Android, iPad, laptop, or any other portable device, the multi charger inCharge® X has got you covered.",
-    "color": [
-      "Black",
-      "Blue",
-      "Gold"
-    ],
+    "color": ["Black", "Blue", "Gold"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -141,11 +193,7 @@
     "id": 10,
     "title": "TUA",
     "description": "TAU is the best 3-in-1 power bank, it fits the iPhone (Apple), Micro USB, and USB-C. It’s the smallest power bank in the world, so you can attach it to your key chain, and comfortably use it in your daily life. It’s the best portable power bank and alternative to your regular, heavy battery charger.TAU® is featured with USB-C, Lightning, and Micro USB cables, and is compatible with virtually every portable device.",
-    "color": [
-      "Black",
-      "Olive Green",
-      "White"
-    ],
+    "color": ["Black", "Olive Green", "White"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -155,11 +203,7 @@
     "id": 11,
     "title": "EDGE",
     "description": "EDGE Kit consists of a phone and tablet mount for your laptop that allows the convenient use of dual screens, efficient study, and work. is the best laptop and tablet accessory that helps to boost productivity while working on the go. It offers hands-free phone accessibility, to extend your screen and always have the needed information at eye level, as well as charging your phone and lighting up your Zoom meetings.",
-    "color": [
-      "White",
-      "Grey",
-      "Red"
-    ],
+    "color": ["White", "Grey", "Red"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
@@ -229,6 +273,54 @@
       "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardblue2-1638160245416.png",
       "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardhero1-1641452478397.jpg",
       "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardkeycaps1638268106218jpegedited--edited-1640657554959.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Beoplay A9",
+    "description": "Beoplay A9's iconic shape is designed to be displayed. From afar, it's a minimal masterpiece. Up close, the details shine. Just like your favourite furniture, it stands apart in any room. And if you prefer it on the wall, it rises to the occasion. Enjoy beauty from every angle, whether you press play or not.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-back-black.webp",
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-front-no-cover-black.webp",
+      "../../assets/images/B&O/Beoplay A9/A9-4th-gen-bronze.png",
+      "../../assets/images/B&O/Beoplay A9/a9_bronze_galleryyyyy.png",
+      "../../assets/images/B&O/Beoplay A9/Lunar Red 1.png",
+      "../../assets/images/B&O/Beoplay A9/Lunar Red 4.png"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Beosound Level",
+    "description": "Coffee tables, work desks, bookshelves – Beosound Level settles right in. Designed to look and sound incredible anywhere, it seamlessly connects to WiFi while being free to move. Long day ahead? 16-hour battery life has you covered. Music in the kitchen? It's splash resistant. Sync it up. Pick it up. And go.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0018.png",
+      "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0219_copy.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelGoldenOak.png",
+      "../../assets/images/B&O/Beosound Level 1/02_Back_FancyPlug-BeosoundLevelGoldenOak.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelBlackAluminum.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelBlackAluminumm.png"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Beosound 2",
+    "description": "Beosound 2 delivers stellar and truly powerful sound performance. Applying our Acoustic Lens Technology into the conical speaker body creates a 360-degree sound experience that fills the entire room from anywhere you place the speaker.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Besound 2/bs2_bronze1.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-bronze-transparrent-image-1.png",
+      "../../assets/images/B&O/Beosound 2/BS2_Gold_1.png",
+      "../../assets/images/B&O/Besound 2/BS2_Gold_3.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-natural-transparrent-image-1.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-natural-transparrent-image-3.png"
     ]
   }
 ]

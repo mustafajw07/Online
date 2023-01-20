@@ -14,7 +14,11 @@
     "price": "AED 4199 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue 3.jpeg"
+    ]
   },
   {
     "id": 2,
@@ -30,7 +34,11 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 3.jpeg"
+    ]
   },
   {
     "id": 3,
@@ -47,7 +55,11 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 3.jpeg"
+    ]
   },
   {
     "id": 4,
@@ -63,12 +75,16 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 1.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 2.jpeg",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 3.jpeg"
+    ]
   },
   {
     "id": 5,
     "title": "MacBook Air M2",
-    "description": "",
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
     "color": [
       "Midnight",
       "Silver",
@@ -79,12 +95,16 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery1-20220606.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery6-20220606.jpeg"
+    ]
   },
   {
     "id": 6,
     "title": "MacBook Pro",
-    "description": "",
+    "description": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.1 And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.2",
     "color": [
       "Silver",
       "Space Grey"
@@ -93,12 +113,16 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 1.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 2.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 5.jpeg"
+    ]
   },
   {
     "id": 7,
     "title": "MacBook Pro",
-    "description": "",
+    "description": "The new MacBook Pro delivers game-changing performance for pro users. Choose the powerful M1 Pro or the even more powerful M1 Max to supercharge pro-level workflows while getting amazing battery life.1 And with an immersive 16-inch Liquid Retina XDR display and an array of pro ports, you can do more than ever with MacBook Pro.2",
     "color": [
       "Silver",
       "Space Grey"
@@ -107,12 +131,16 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 1.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 2.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 5.jpeg"
+    ]
   },
   {
     "id": 8,
     "title": "MacPro M2",
-    "description": "",
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure",
     "color": [
       "Silver",
       "Space Grey"
@@ -121,6 +149,10 @@
     "price": "54999 /-",
     "brand": "Apple",
     "cid": 1,
-    "images": []
+    "images": [
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery1-202206.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery2-202206_GEO_AE.jpeg",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery6-202206.jpeg"
+    ]
   }
 ]
