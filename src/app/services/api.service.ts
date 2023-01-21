@@ -5,7 +5,6 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-  product:any = [];
   constructor(private http: HttpClient) { }
 
   // Get Home Page Products
