@@ -4,7 +4,7 @@
     <div class="product" *ngFor="let product of productList">
       <div class="product_inner">
         <img
-          src="https://merchants.infishopper.com/content/images/thumbs/0529007_merlin-craft-apple-airpods-pro-green-glossy.jpeg"
+          src={{product.images[1]}}
           width="300"
         />
         <p class="text-dark" style="font-weight: bolder">{{ product.brand }}</p>

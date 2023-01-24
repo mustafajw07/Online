@@ -19,7 +19,7 @@
                   <div class="thumb-wrapper">
                     <div class="img-box">
                       <img
-                        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662655662/Croma%20Assets/Communication/Mobiles/Images/261979_oq7vjv.png/mxw_640,f_auto  "
+                        src={{product.image}}
                         class="img-fluid"
                         alt="{{ product.title }}"
                       />
@@ -30,7 +30,7 @@
                         <h4>{{ product.title }}</h4>
                       </div>
                       <div class="btnproduct">
-                        <a to="#" class="btn btn-primary "> View Product </a>
+                        <a routerLink="/products/{{product.cid}}/{{product.id}}" class="btn btn-primary "> View Product </a>
                       </div>
                     </div>
                   </div>
@@ -46,7 +46,7 @@
                   <div class="thumb-wrapper">
                     <div class="img-box">
                       <img
-                        src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1662655662/Croma%20Assets/Communication/Mobiles/Images/261979_oq7vjv.png/mxw_640,f_auto"
+                        src={{product.image}}
                         class="img-fluid"
                         alt="{{ product.title }}"
                       />
@@ -56,7 +56,7 @@
                         <h4>{{ product.title }}</h4>
                       </div>
                       <div>
-                        <a to="#" class="btn btn-primary "> View Product </a>
+                        <a routerLink="/products/{{product.cid}}/{{product.id}}" class="btn btn-primary "> View Product </a>
                       </div>
                     </div>
                   </div>
