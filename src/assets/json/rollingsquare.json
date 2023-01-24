@@ -3,37 +3,38 @@
     "id": 9,
     "title": "InChargeX",
     "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source. It allows Data Transfer and Ultra-Fast Charging up to 100W and Apple's Fast Charging up to 18W.Whether you need to fast charge an iPhone or Android, iPad, laptop, or any other portable device, the multi charger inCharge® X has got you covered.",
-    "color": ["Black" , "Blue" , "Gold"],
+    "color": ["Black", "Blue", "Gold"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
     "images": [
-      "../../assets/images/RollingSquare/InChargeX-Black Colour/lifestyle3_a5503d2b-0eb3-4d31-b2f7-9a7582a29d9a.png",
       "../../assets/images/RollingSquare/InChargeX-Blue Colour/01_dc01cf8f-b451-42c4-af28-e99cf5795c43_1000x.png",
-      "../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_1000x.png"
+      "../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Black Colour/lifestyle3_a5503d2b-0eb3-4d31-b2f7-9a7582a29d9a.png"
     ]
   },
   {
     "id": 10,
     "title": "TUA",
     "description": "TAU is the best 3-in-1 power bank, it fits the iPhone (Apple), Micro USB, and USB-C. It’s the smallest power bank in the world, so you can attach it to your key chain, and comfortably use it in your daily life. It’s the best portable power bank and alternative to your regular, heavy battery charger.TAU® is featured with USB-C, Lightning, and Micro USB cables, and is compatible with virtually every portable device.",
-    "color": ["Black" , "Olive Green" , "White"],
+    "color": ["Black", "Olive Green", "White"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
     "images": []
-  },{
+  },
+  {
     "id": 11,
     "title": "EDGE",
     "description": "EDGE Kit consists of a phone and tablet mount for your laptop that allows the convenient use of dual screens, efficient study, and work. is the best laptop and tablet accessory that helps to boost productivity while working on the go. It offers hands-free phone accessibility, to extend your screen and always have the needed information at eye level, as well as charging your phone and lighting up your Zoom meetings.",
-    "color": ["White" , "Grey" , "Red"],
+    "color": ["White", "Grey", "Red"],
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
     "images": [
+      "../../assets/images/RollingSquare/EDGE-Red/FullKitRed_2000x.png",
       "../../assets/images/RollingSquare/EDGE-Carra White/renderkitcarrarawhite.png",
-      "../../assets/images/RollingSquare/EDGE-Grey/EDGEFullKitBasaltGrey-min.png",
-      "../../assets/images/RollingSquare/EDGE-Red/FullKitRed_2000x.png"
+      "../../assets/images/RollingSquare/EDGE-Grey/EDGEFullKitBasaltGrey-min.png"
     ]
   }
 ]

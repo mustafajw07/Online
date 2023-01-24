@@ -10,9 +10,9 @@
     <div class="col-lg-12 col-md-12 box mb-2 d-flex">
       <img
         class="img"
-        src={{products.images[0]}}
-        width="200px"
-        height="200px"
+        src="{{ products.images[0] }}"
+        width="260px"
+        height="260px"
         alt=""
       />
       <div class="container mt-3">
@@ -23,12 +23,12 @@
           {{ products.description }}
         </p>
         <div *ngIf="products.color">
-          <h6>Available Colors :- </h6>
-        <div class="radio-box"  *ngFor="let color of products.color">
-          <label [ngClass]="getColor(color)">
-            <input type="radio" checked="checked" name="radio" />
-          </label>
-        </div>
+          <h6>Available Colors :-</h6>
+          <div class="radio-box" *ngFor="let color of products.color">
+            <label [ngClass]="getColor(color)">
+              <input type="radio" checked="checked" name="radio" />
+            </label>
+          </div>
         </div>
       </div>
       <div class="col-lg-2 col-sm-12 col-md-1 justify-content-center price">
