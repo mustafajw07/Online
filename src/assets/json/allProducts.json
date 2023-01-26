@@ -155,7 +155,11 @@
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
-    "images": []
+    "images": [
+      "../../assets/images/RollingSquare/InChargeX-Blue Colour/01_dc01cf8f-b451-42c4-af28-e99cf5795c43_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Black Colour/lifestyle3_a5503d2b-0eb3-4d31-b2f7-9a7582a29d9a.png"
+    ]
   },
   {
     "id": 10,
@@ -175,7 +179,11 @@
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
-    "images": []
+    "images": [
+      "../../assets/images/RollingSquare/EDGE-Red/FullKitRed_2000x.png",
+      "../../assets/images/RollingSquare/EDGE-Carra White/renderkitcarrarawhite.png",
+      "../../assets/images/RollingSquare/EDGE-Grey/EDGEFullKitBasaltGrey-min.png"
+    ]
   },
   {
     "id": 12,
