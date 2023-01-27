@@ -28,7 +28,7 @@ export class CardSectionComponent implements OnInit {
         if (e.brand == 'Apple') {
           this.apple.push(e);
         }
-        if (e.brand == 'keychron') {
+        if (e.brand == 'Keychron') {
           this.keychron.push(e);
         }
         if (e.brand == 'Rolling Square') {
@@ -37,7 +37,7 @@ export class CardSectionComponent implements OnInit {
         if (e.brand == 'B&O') {
           this.bo.push(e);
         }
-      });
+      }); 
     });
   }
 

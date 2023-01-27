@@ -1,12 +1,16 @@
 <section class="container">
   <h3 class="heading my-5"><span>Apple</span></h3>
   <div class="cardSection">
-    <div *ngFor="let apple of apple">
-      <div class="mycard" style='background-image: url({{apple.image}});'>
+    <div class="mycard" *ngFor="let app of apple">
+      <div class="card-grid-view">
+        <div class="card-body">
+          <img src={{app.images[0]}} class="card-img" alt="item" />
+          <div class="text-center pt-2 card-content">
+            <h5 id="title" >{{app.title}}</h5>
+            <p className="text-muted">{{app.description}}</p>
+          </div>
+        </div>
       </div>
-      <h5>
-        {{ apple.title }}
-      </h5>
     </div>
   </div>
   <div class="center">
@@ -14,12 +18,16 @@
   </div>
   <h3 class="heading my-5"><span>Keychron</span></h3>
   <div class="cardSection">
-    <div *ngFor="let keychron of keychron">
-      <div class="mycard" style='background-image: url({{keychron.image}});'>
+    <div class="mycard" *ngFor="let key of keychron">
+      <div class="card-grid-view">
+        <div class="card-body">
+          <img src={{key.images[0]}} class="card-img" alt="item" />
+          <div class="text-center pt-2 card-content">
+            <h5 id="title" >{{key.title}}</h5>
+            <p className="text-muted">{{key.description}}</p>
+          </div>
+        </div>
       </div>
-      <h5>
-        {{ keychron.title }}
-      </h5>
     </div>
   </div>
   <div class="center">
@@ -27,12 +35,16 @@
   </div>
   <h3 class="heading my-5"><span>Rolling Square</span></h3>
   <div class="cardSection">
-    <div *ngFor="let rollingSquare of rollingSquare">
-      <div class="mycard" style='background-image: url({{rollingSquare.image}});'>
+    <div class="mycard" *ngFor="let rs of rollingSquare">
+      <div class="card-grid-view">
+        <div class="card-body">
+          <img src={{rs.images[0]}} class="card-img" alt="item" />
+          <div class="text-center pt-2 card-content">
+            <h5 id="title" >{{rs.title}}</h5>
+            <p className="text-muted">{{rs.description}}</p>
+          </div>
+        </div>
       </div>
-      <h5>
-      {{ rollingSquare.title }}
-      </h5>
     </div>
   </div>
   <div class="center">
@@ -40,12 +52,16 @@
   </div>
   <h3 class="heading my-5"><span>B&O</span></h3>
   <div class="cardSection">
-    <div *ngFor="let bo of bo">
-      <div class="mycard" style='background-image: url({{bo.image}});'>
+    <div class="mycard" *ngFor="let bo of bo">
+      <div class="card-grid-view">
+        <div class="card-body">
+          <img src={{bo.images[0]}} class="card-img" alt="item" />
+          <div class="text-center pt-2 card-content">
+            <h5 id="title" >{{bo.title}}</h5>
+            <p className="text-muted">{{bo.description}}</p>
+          </div>
+        </div>
       </div>
-      <h5>
-        {{ bo.title }}
-      </h5>
     </div>
   </div>
   <div class="center">
