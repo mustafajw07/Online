@@ -9,21 +9,13 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14/Blue 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Blue 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Blue 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Midnight 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Midnight 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Midnight 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Product RED 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Product RED 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Product RED 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Purple 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Purple 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Purple 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Starlight 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Starlight 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Starlight 3.jpeg"
+      
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product_RED_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product_RED_3.png"
     ]
   },
   {
@@ -36,18 +28,12 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space Black 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space Black 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space Black 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep_Purple_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep_Purple_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Silver_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space_Black_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space_Black_3.png"
     ]
   },
   {
@@ -60,21 +46,12 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product RED 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product RED 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product RED 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product_RED_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Blue_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product_RED_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Starlight_3.png"
     ]
   },
   {
@@ -87,18 +64,13 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep Purple 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep Purple 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep Purple 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver 3.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space Black 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space Black 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space Black 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep_Purple_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep_Purple_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space_Black_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space_Black_2.png"
     ]
   },
   {
@@ -111,14 +83,12 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery1-20220606.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-gallery2-20220606_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-gallery6-20220606.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery2-20220606_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery6-20220606.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 StarLight/macbook-air-starlight-gallery2-20220606_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 StarLight/macbook-air-starlight-gallery6-20220606.jpeg"
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery1-20220606.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-gallery4-20220606.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-gallery3-20220606.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery5-20220606.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery6-20220606.png"
     ]
   },
   {
@@ -131,14 +101,13 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 1.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 2.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 5.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 4.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 1.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 2.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 5.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver 4.jpeg"
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space_Gray_2.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space_Gray_5.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space_Gray_4.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver_1.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver_2.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver_3.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver_4.png"
     ]
   },
   {
@@ -151,14 +120,13 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 1.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 2.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 4.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 5.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 1.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 2.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 4.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space Gray 5.jpeg"
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver_1.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver_2.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver_3.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver_5.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space_Gray_1.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space_Gray_2.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space_Gray_4.png"
     ]
   },
   {
@@ -171,12 +139,12 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery1-202206.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery2-202206_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery6-202206.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery1-202206.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery2-202206_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery6-202206.jpeg"
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery1-202206.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery2-202206_GEO_AE.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery6-202206.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery1-202206.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery2-202206_GEO_AE.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery6-202206.png"
     ]
   },
   {
@@ -187,7 +155,11 @@
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
-    "images": []
+    "images": [
+      "../../assets/images/RollingSquare/InChargeX-Blue Colour/01_dc01cf8f-b451-42c4-af28-e99cf5795c43_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Black Colour/lifestyle3_a5503d2b-0eb3-4d31-b2f7-9a7582a29d9a.png"
+    ]
   },
   {
     "id": 10,
@@ -207,7 +179,11 @@
     "price": "54999 /-",
     "brand": "Rolling Square",
     "cid": 3,
-    "images": []
+    "images": [
+      "../../assets/images/RollingSquare/EDGE-Red/FullKitRed_2000x.png",
+      "../../assets/images/RollingSquare/EDGE-Carra White/renderkitcarrarawhite.png",
+      "../../assets/images/RollingSquare/EDGE-Grey/EDGEFullKitBasaltGrey-min.png"
+    ]
   },
   {
     "id": 12,

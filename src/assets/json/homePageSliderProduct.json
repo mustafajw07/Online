@@ -1,50 +1,97 @@
 [
   {
-    "id": 1,
-    "title": "Iphone 14",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 2,
-    "title": "USB-C PORT CHARGER",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 3,
-    "title": "Wireless Charger 15W",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
     "id": 4,
-    "title": "BackCover",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "title": "Iphone 14 Pro Max",
+    "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
+    "color": [
+      "Deep Purple",
+      "Gold",
+      "Silver",
+      "Space Black"
+    ],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "image": "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold_2.png"
   },
   {
-    "id": 5,
-    "title": "Iphone 14 Pro",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "id": 16,
+    "title": "Beoplay A9",
+    "description": "Beoplay A9's iconic shape is designed to be displayed. From afar, it's a minimal masterpiece. Up close, the details shine. Just like your favourite furniture, it stands apart in any room. And if you prefer it on the wall, it rises to the occasion. Enjoy beauty from every angle, whether you press play or not.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "image": "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-front-no-cover-black.webp"
   },
   {
-    "id": 6,
-    "title": "USB-C CABLE",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "id": 14,
+    "title": "K8 Wireless Mechanical Keyboard",
+    "description": "The K8 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems. Gateron (Hot-swappable) version comes with Gateron switch pre-installed.Engineered to maximize your productivity with most popular TKL layout. The hot-swappable option on Optical and Mechanical switches offers the freedom to easily personalize your typing experience without soldering.",
+    "color": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "image": "../../assets/images/KeyChron/Keychron K8/keychronk8wirelessmechanicalkeyboard1-1646210675142.jpg"
   },
   {
-    "id": 7,
-    "title": "inCharge® X",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "id": 10,
+    "title": "TUA",
+    "description": "TAU is the best 3-in-1 power bank, it fits the iPhone (Apple), Micro USB, and USB-C. It’s the smallest power bank in the world, so you can attach it to your key chain, and comfortably use it in your daily life. It’s the best portable power bank and alternative to your regular, heavy battery charger.TAU® is featured with USB-C, Lightning, and Micro USB cables, and is compatible with virtually every portable device.",
+    "color": ["Black" , "Olive Green" , "White"],
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
   },
   {
     "id": 8,
-    "title": "GaN Charger 65W",
-    "image": "",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "title": "MacPro M2",
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure",
+    "color": [
+      "Silver",
+      "Space Grey"
+    ],
+    "size": "13-inch",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "image": "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery2-202206_GEO_AE.png"
+  },
+  {
+    "id": 13,
+    "title": "K6 Wireless Mechanical Keyboard",
+    "description": "The K6 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems. Hot-swappable version comes with Gateron switch pre-installed.An innovative 65% compact wireless mechanical keyboard crafted to maximize your workspace with an ergonomic design, while retaining all necessary multimedia and function keys. The hot-swappable version offers the freedom to easily personalize your typing experience without soldering.",
+    "color": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "image": "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard3-1646815621027.jpg"
+  },
+  {
+    "id": 5,
+    "title": "MacBook Air M2",
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
+    "color": [
+      "Midnight",
+      "Silver",
+      "Space Grey",
+      "StarLight"
+    ],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "image": "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.png"
+  },
+  {
+    "id": 9,
+    "title": "InChargeX",
+    "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source. It allows Data Transfer and Ultra-Fast Charging up to 100W and Apple's Fast Charging up to 18W.Whether you need to fast charge an iPhone or Android, iPad, laptop, or any other portable device, the multi charger inCharge® X has got you covered.",
+    "color": ["Black" , "Blue" , "Gold"],
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "image": "../../assets/images/RollingSquare/InChargeX-Blue Colour/01_dc01cf8f-b451-42c4-af28-e99cf5795c43_1000x.png"
   }
 ]

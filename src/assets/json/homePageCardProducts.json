@@ -1,114 +1,220 @@
 [
   {
     "id": 1,
-    "title": "Iphone 14 Plus",
+    "title": "Iphone 14",
+    "description": "The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more.",
+    "color": [
+      "Blue",
+      "Midnight",
+      "Purple",
+      "Red",
+      "StarLight"
+    ],
+    "size": "",
+    "price": "AED 4199 /-",
     "brand": "Apple",
-    "image": "../../assets/images/HomePage/appleCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "cid": 1,
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product_RED_3.png"
+    ]
   },
   {
     "id": 2,
-    "title": "Iphone 14 Pro Max",
+    "title": "Iphone 14 Pro",
+    "description": "The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more",
+    "color": [
+      "Deep Purple",
+      "Gold",
+      "Silver",
+      "Space Black"
+    ],
+    "size": "",
+    "price": "54999 /-",
     "brand": "Apple",
-    "image": "../../assets/images/HomePage/appleCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "cid": 1,
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep_Purple_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space_Black_3.png"
+    ]
   },
   {
     "id": 3,
-    "title": "Apple Watch Ultra",
+    "title": "Iphone 14 Plus",
+    "description": "The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more.",
+    "color": [
+      "Blue",
+      "Midnight",
+      "Purple",
+      "Red",
+      "StarLight"
+    ],
+    "size": "",
+    "price": "54999 /-",
     "brand": "Apple",
-    "image": "../../assets/images/HomePage/appleCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "cid": 1,
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product_RED_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight_3.png"
+    ]
   },
   {
     "id": 4,
-    "title": "Apple Watch Ultra",
+    "title": "Iphone 14 Pro Max",
+    "description": "The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more.",
+    "color": [
+      "Deep Purple",
+      "Gold",
+      "Silver",
+      "Space Black"
+    ],
+    "size": "",
+    "price": "54999 /-",
     "brand": "Apple",
-    "image": "../../assets/images/HomePage/appleCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 5,
-    "title": "M1 Wireless Mouse",
-    "brand": "keychron",
-    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 6,
-    "title": "Bluetooth Backlit Keyboard",
-    "brand": "keychron",
-    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 7,
-    "title": "5USB Charging Station",
-    "brand": "keychron",
-    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 8,
-    "title": "5USB Charging Station",
-    "brand": "keychron",
-    "image": "../../assets/images/HomePage/keychronCardImg.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 9,
-    "title": "Edge Light",
-    "brand": "Rolling Square",
-    "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 10,
-    "title": "Hyphen 2",
-    "brand": "Rolling Square",
-    "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-  },
-  {
-    "id": 11,
-    "title": "Wireless Charger 15W",
-    "brand": "Rolling Square",
-    "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "cid": 1,
+    "images": [
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep_Purple_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space_Black_3.png"
+    ]
   },
   {
     "id": 12,
-    "title": "Wireless Charger 15W",
-    "brand": "Rolling Square",
-    "image": "../../assets/images/HomePage/rollingSquareCardImg.png",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "title": "K10 Wireless Mechanical Keyboard",
+    "description": "The K10 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems.",
+    "color": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "images": [
+      "../../assets/images/KeyChron/Keychron K10/keychronk10wirelessmechanicalkeyboard5-1648624270735.jpg",
+      "../../assets/images/KeyChron/Keychron K10/keychronk10wirelessmechanicalkeyboard6-1648624302280.jpg",
+      "../../assets/images/KeyChron/Keychron K10/pf-37f77395--KeychronK4version2hotswappablewirelessmechanicalkeyboard96percentlayoutforMacWindowsiOSGateronswitchredbluebrownwithtypeCRGBwhitebacklight-Edited.jpg"
+    ]
   },
   {
     "id": 13,
-    "title": "Apple 13",
-    "brand": "B&O",
-    "image": "../../assets/images/HomePage/b&o.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "title": "K6 Wireless Mechanical Keyboard",
+    "description": "The K6 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems.",
+    "color": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "images": [
+      "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard1-1646815800020.jpg",
+      "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard3-1646815621027.jpg",
+      "../../assets/images/KeyChron/Keychron K6/keychronk6wirelessmechanicalkeyboard4-1646815621045.jpg"
+    ]
   },
   {
     "id": 14,
-    "title": "Apple 13 Mini",
-    "brand": "B&O",
-    "image": "../../assets/images/HomePage/b&o.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "title": "K8 Wireless Mechanical Keyboard",
+    "description": "The K8 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems.",
+    "color": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "images": [
+      "../../assets/images/KeyChron/Keychron K8/keychronk2wirelessmechanicalkeyboard6-1648624002508.jpg",
+      "../../assets/images/KeyChron/Keychron K8/keychronk8wirelessmechanicalkeyboard1-1646210675142.jpg",
+      "../../assets/images/KeyChron/Keychron K8/keychronk8wirelessmechanicalkeyboard4-1646210775691.jpg"
+    ]
   },
   {
     "id": 15,
-    "title": "Apple 13 Pro",
-    "brand": "B&O",
-    "image": "../../assets/images/HomePage/b&o.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "title": "Q2 QMK Custom Mechanical Keyboard",
+    "description": "The Q2 is a fully customizable mechanical keyboard with a compact layout that pushes your typing experience to the next level.",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "images": [
+      "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardblue2-1638160245416.png",
+      "../../assets/images/KeyChron/Keychron Q2/keychron-q2-65-custom-mechanical-keyboard-barebone-version-knob-version-1640660618936.jpeg",
+      "../../assets/images/KeyChron/Keychron Q2/keychron-q2-65-custom-mechanical-keyboard-knob-version-1640600481540.jpeg",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq265custommechanicalkeyboardmacwindowsoperatingsystem--edited-1640770781841.jpg",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardhero1-1641452478397.jpg",
+      "../../assets/images/KeyChron/Keychron Q2/keychronq2custommechanicalkeyboardkeycaps1638268106218jpegedited--edited-1640657554959.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "InChargeX",
+    "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source.",
+    "color": ["Black", "Blue", "Gold"],
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": [
+      "../../assets/images/RollingSquare/InChargeX-Black Colour/1.png",
+      "../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_1000x.png",
+      "../../assets/images/RollingSquare/InChargeX-Black Colour/lifestyle3_a5503d2b-0eb3-4d31-b2f7-9a7582a29d9a.png"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "TUA",
+    "description": "TAU is the best 3-in-1 power bank, it fits the iPhone (Apple), Micro USB, and USB-C. It’s the smallest power bank in the world, so you can attach it to your key chain, and comfortably use it in your daily life.",
+    "color": ["Black", "Olive Green", "White"],
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": []
+  },
+  {
+    "id": 11,
+    "title": "EDGE",
+    "description": "EDGE Kit consists of a phone and tablet mount for your laptop that allows the convenient use of dual screens, efficient study, and work. is the best laptop and tablet accessory that helps to boost productivity while working on the go.",
+    "color": ["White", "Grey", "Red"],
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images": [
+      "../../assets/images/RollingSquare/EDGE-Red/FullKitRed_2000x.png",
+      "../../assets/images/RollingSquare/EDGE-Carra White/renderkitcarrarawhite.png",
+      "../../assets/images/RollingSquare/EDGE-Grey/EDGEFullKitBasaltGrey-min.png"
+    ]
   },
   {
     "id": 16,
-    "title": "Apple 13 Pro",
+    "title": "Beoplay A9",
+    "description": "Beoplay A9's iconic shape is designed to be displayed. From afar, it's a minimal masterpiece. Up close, the details shine. Just like your favourite furniture, it stands apart in any room.",
     "brand": "B&O",
-    "image": "../../assets/images/HomePage/b&o.jpg",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Beoplay A9/beoplay-a9-4-gen-back-black.webp",
+      "../../assets/images/B&O/Beoplay A9/A9-4th-gen-bronze.png",
+      "../../assets/images/B&O/Beoplay A9/Lunar Red 1.png"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Beosound Level",
+    "description": "Coffee tables, work desks, bookshelves – Beosound Level settles right in. Designed to look and sound incredible anywhere, it seamlessly connects to WiFi while being free to move. ",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelBlackAluminum.png",
+      "../../assets/images/B&O/Beosound Level 1/01_Hero_BeosoundLevelGoldenOak.png"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Beosound 2",
+    "description": "Beosound 2 delivers stellar and truly powerful sound performance.Applying our Acoustic Lens Technology into the conical speaker body creates a 360-degree sound experience that fills the entire room from anywhere you place the speaker.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": [
+      "../../assets/images/B&O/Besound 2/beosound-2-natural-transparrent-image-1.png",
+      "../../assets/images/B&O/Besound 2/beosound-2-bronze-transparrent-image-1.png",
+      "../../assets/images/B&O/Besound 2/bs2_bronze1.png"
+    ]
   }
 ]

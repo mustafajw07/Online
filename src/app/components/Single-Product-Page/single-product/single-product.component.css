@@ -80,6 +80,9 @@
   }
 }
 
+.margin{
+  margin-top: 20px;
+}
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;

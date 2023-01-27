@@ -1,34 +1,47 @@
 [
     {
-        "id" : 1,
-        "title": "Apple",
+        "id": 4,
+        "title": "Iphone 14 Pro Max",
+        "description": "The new iPhone 14 series is finally here. The new iPhones feature a beautiful and durable design, a new cinematic mode, gorgeous display changes, an A15 bionic chip, advanced security features, a huge leap in battery life and so much more. Not an iPhone user? It's so easy to switch to iPhone.",
+        "color": [
+          "Deep Purple",
+          "Gold",
+          "Silver",
+          "Space Black"
+        ],
+        "size": "",
+        "price": "54999 /-",
         "brand": "Apple",
-        "image": "http://johnlewis.scene7.com/is/image/JohnLewis/109467289",
-        "price": "14000/-",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 2,
-        "title": "Rolling Square",
-        "brand": "Rolling Square",
-        "image": "https://m.media-amazon.com/images/I/510euMf6uaS._SL1000_.jpg",
-        "price": "4000/-",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 3,
-        "title": "B&O",
+        "cid": 1,
+        "images": "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold_1.png"
+      },
+      {
+        "id": 18,
+        "title": "Beosound 2",
+        "description": "Beosound 2 delivers stellar and truly powerful sound performance. Applying our Acoustic Lens Technology into the conical speaker body creates a 360-degree sound experience that fills the entire room from anywhere you place the speaker.",
         "brand": "B&O",
-        "image": "https://m.media-amazon.com/images/I/61QllAKpqUS.jpg",
-        "price": "24000/-",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    },
-    {
-        "id" : 4,
-        "title": "keychron",
-        "brand": "keychron",
-        "image": "https://keychron.in/wp-content/uploads/2021/06/Keychron-K4-version2-hot-swappable-wireless-mechanical-keyboard-96percent-layout-for-Mac-Windows-iOS-Gateron-switch-blue-with-type-C-RGB-white-backlight_1800x1800.jpg",
-        "price": "7000/-",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    }
+        "color": "",
+        "cid": 2,
+        "images": "../../assets/images/B&O/Besound 2/bs2_bronze1.png"
+      },
+      {
+        "id": 11,
+        "title": "EDGE",
+        "description": "EDGE Kit consists of a phone and tablet mount for your laptop that allows the convenient use of dual screens, efficient study, and work. is the best laptop and tablet accessory that helps to boost productivity while working on the go. It offers hands-free phone accessibility, to extend your screen and always have the needed information at eye level, as well as charging your phone and lighting up your Zoom meetings.",
+        "color": ["White" , "Grey" , "Red"],
+        "price": "54999 /-",
+        "brand": "Rolling Square",
+        "cid": 3,
+        "images": "../../assets/images/RollingSquare/EDGE-Carra White/renderkitcarrarawhite.png"
+      },
+      {
+        "id": 14,
+        "title": "K8 Wireless Mechanical Keyboard",
+        "description": "The K8 Wireless Mechanical Keyboard has included keycaps for both Windows and Mac operating systems. Gateron (Hot-swappable) version comes with Gateron switch pre-installed.Engineered to maximize your productivity with most popular TKL layout. The hot-swappable option on Optical and Mechanical switches offers the freedom to easily personalize your typing experience without soldering.",
+        "color": "",
+        "price": "54999 /-",
+        "brand": "Keychron",
+        "cid": 4,
+        "images": "../../assets/images/KeyChron/Keychron K8/keychronk2wirelessmechanicalkeyboard6-1648624002508.jpg"
+      }
 ]
