@@ -15,9 +15,9 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14/Blue 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Blue 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14/Blue 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14/Blue_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Midnight_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14/Product_RED_3.png"
     ]
   },
   {
@@ -35,9 +35,9 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep Purple 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Deep_Purple_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Gold_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro/Space_Black_3.png"
     ]
   },
   {
@@ -56,9 +56,9 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Product_RED_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Purple_2.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Plus/Midnight_3.png"
     ]
   },
   {
@@ -76,9 +76,9 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 1.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 2.jpeg",
-      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Gold 3.jpeg"
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Deep_Purple_1.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Silver_3.png",
+      "../../assets/images/Apple/iPhone/iPhone 14 Pro Max/Space_Black_3.png"
     ]
   },
   {
@@ -96,9 +96,9 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery1-20220606.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery6-20220606.jpeg"
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Midnight/macbook-air-midnight-select-20220606.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery2-20220606_GEO_AE.png",
+      "../../assets/images/Apple/MacBook Air M2 2022/M2 SpaceGrey/macbook-air-spacegray-gallery6-20220606.png"
     ]
   },
   {
@@ -114,9 +114,10 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 1.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 2.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space Gray 5.jpeg"
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space_Gray_1.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Space_Gray_2.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver_4.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 14_/Silver_5.png"
     ]
   },
   {
@@ -132,9 +133,10 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 1.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 2.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver 5.jpeg"
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver_1.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Silver_2.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space_Gray_3.png",
+      "../../assets/images/Apple/MacBook Pro/MacBook Pro 16_/Space_Gray_4.png"
     ]
   },
   {
@@ -150,9 +152,10 @@
     "brand": "Apple",
     "cid": 1,
     "images": [
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery1-202206.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery2-202206_GEO_AE.jpeg",
-      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery6-202206.jpeg"
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery1-202206.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Space Grey/mbp-spacegray-gallery6-202206.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery2-202206_GEO_AE.png",
+      "../../assets/images/Apple/MacBook Pro/MacPro M2 13_ Silver/mbp-silver-gallery4-202206.png"
     ]
   }
 ]
