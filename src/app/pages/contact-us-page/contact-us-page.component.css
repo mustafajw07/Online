@@ -140,6 +140,10 @@ hr {
   animation-fill-mode: forwards;
 }
 
+.contact a{
+  text-decoration: none;
+}
+
 /* From uiverse.io */
 button {
   padding: 1em 1.1em;
