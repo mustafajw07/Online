@@ -8,5 +8,5 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent {
 
   constructor() { }
-
+  emailstring= "mailto: info.techneworld@gmail.com"
 }
