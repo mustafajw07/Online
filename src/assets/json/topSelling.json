@@ -1,30 +1,49 @@
 [
-    {
-        "id": 1,
-        "title": "Iphone 14 Plus",
-        "brand": "Apple",
-        "image": "",
-        "price": "599/-"
-      },
-      {
-        "id": 2,
-        "title": "Iphone 14 Pro Max",
-        "brand": "Apple",
-        "image": "",
-        "price": "599/-"
-      },
-      {
-        "id": 3,
-        "title": "M1 Wireless Mouse",
-        "brand": "keychron",
-        "image": "",
-        "price": "599/-"
-      },
-      {
-        "id": 4,
-        "title": "Slim Backlit Keyboard",
-        "brand": "keychron",
-        "image": "",
-        "price": "599/-"
-      }
+  {
+    "id": 5,
+    "title": "MacBook Air M2",
+    "description": "Supercharged by the next-generation M2 chip, the redesigned MacBook Air combines incredible performance and up to 18 hours of battery life into its strikingly thin aluminum enclosure.",
+    "color": [
+      "Midnight",
+      "Silver",
+      "Space Grey",
+      "StarLight"
+    ],
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Apple",
+    "cid": 1,
+    "images": "../../assets/images/Apple/MacBook Air M2 2022/M2 Silver/macbook-air-silver-gallery1-20220606.jpeg"
+  },
+  {
+    "id": 17,
+    "title": "Beosound Level",
+    "description": "Coffee tables, work desks, bookshelves – Beosound Level settles right in. Designed to look and sound incredible anywhere, it seamlessly connects to WiFi while being free to move. Long day ahead? 16-hour battery life has you covered. Music in the kitchen? It's splash resistant. Sync it up. Pick it up. And go.",
+    "brand": "B&O",
+    "color": "",
+    "cid": 2,
+    "images": "../../assets/images/B&O/Beosound Level 1/Beosound_Level_0261_Sound_And_Vision_For_Your_Home.png"
+    
+  },
+  {
+    "id": 9,
+    "title": "InChargeX",
+    "description": "Inchargex X is the world’s only 6-in-1 charging cable with 100W. It offers fast charging, with 6 different combinations that can virtually charge any device from any power source. It allows Data Transfer and Ultra-Fast Charging up to 100W and Apple's Fast Charging up to 18W.Whether you need to fast charge an iPhone or Android, iPad, laptop, or any other portable device, the multi charger inCharge® X has got you covered.",
+    "color": ["Black" , "Blue" , "Gold"],
+    "price": "54999 /-",
+    "brand": "Rolling Square",
+    "cid": 3,
+    "images":"../../assets/images/RollingSquare/InChargeX-Gold Colour/01_6684282b-5d13-49b2-90d8-eb5cbb5896aa_1000x.png"
+  },
+  {
+    "id": 15,
+    "title": "Q2 QMK Custom Mechanical Keyboard",
+    "description": "The Q2 is a fully customizable mechanical keyboard with a compact layout that pushes your typing experience to the next level. With a 65% layout, full metal body, and double-gasket design, the Q2 is designed for a personalized experience and premium typing comfort.",
+    "color": "",
+    "size": "",
+    "price": "54999 /-",
+    "brand": "Keychron",
+    "cid": 4,
+    "images":"../../assets/images/KeyChron/Keychron Q2/keychron-q2-65-custom-mechanical-keyboard-barebone-version-knob-version-1640660618936.jpeg"
+  }
 ]
