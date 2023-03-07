@@ -19,7 +19,6 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
-/src/assets/json/keys.json
 
 
 # Visual Studio Code
